@@ -2192,3 +2192,2893 @@ Types of Infosec
     • Infrastructure security - Infrastructure security deals with the protection of internal and extranet networks, labs, data centers, servers, desktops, and mobile devices. 
     • Incident response - Incident response is the function that monitors for and investigates potentially malicious behavior. In preparation for breaches, IT staff should have an incident response plan for containing the threat and restoring the network. In addition, the plan should create a system to preserve evidence for forensic analysis and potential prosecution. This data can help prevent further breaches and help staff discover the attacker. 
     • Vulnerability Management - Vulnerability management is the process of scanning an environment for weak points (such as unpatched software) and prioritizing remediation based on risk. In many networks, businesses are constantly adding applications, users, infrastructure, and so on. For this reason, it is important to constantly scan the network for potential vulnerabilities. Finding a vulnerability in advance can save your businesses the catastrophic costs of a breach. 
+
+
+
+
+
+
+
+
+Introduction and Pre-Security
+Level 1 - Intro
+
+    OpenVPN - Learn how to connect to a virtual private network using OpenVPN.
+    Welcome - Learn how to use a TryHackMe room to start your upskilling in cyber security.
+    Intro to Researching - A brief introduction to research skills for pentesting.
+    Linux Fundamentals 1 - Embark on the journey of learning the fundamentals of Linux. Learn to run some of the first essential commands on an interactive terminal.
+    Linux Fundamentals 2 - Embark on the journey of learning the fundamentals of Linux. Learn to run some of the first essential commands on an interactive terminal.
+    Linux Fundamentals 3 - Embark on the journey of learning the fundamentals of Linux. Learn to run some of the first essential commands on an interactive terminal.
+    Pentesting fundamentals - Fundamentals of penetration testing.
+    Principles of security - Principles of security.
+    Red Team Engagements - Intro to red team engagements.
+    Hip Flask - An in-depth walkthrough covering pentest methodology against a vulnerable server.
+
+Introductory CTFs to get your feet wet
+
+    Google Dorking - Explaining how Search Engines work and leveraging them into finding hidden content!
+    Osint - Intro to Open Source Intelligence.
+    Shodan.io - Learn about Shodan.io and how to use it for device enumeration.
+
+↑
+Free Beginner Red Team Path
+Level 2 - Tooling
+
+    Tmux - Learn to use tmux, one of the most powerful multi-tasking tools on linux.
+    Nmap - Get experience with Nmap, a powerful network scanning tool.
+    Web Scanning - Learn the basics of automated web scanning.
+    Sublist3r - Learn how to find subdomains with Sublist3r.
+    Metasploit - An introduction to the main components of the Metasploit Framework.
+    Hydra - Learn about and use Hydra, a fast network logon cracker, to bruteforce and obtain a website's credentials.
+    Linux Privesc - Practice your Linux Privilege Escalation skills on an intentionally misconfigured Debian VM with multiple ways to get root! SSH is available.
+    Red Team Fundamentals - Learn about the basics of a red engagement, the main components and stakeholders involved, and how red teaming differs from other cyber security engagements.
+    Red Team Recon - Learn how to use DNS, advanced searching, Recon-ng, and Maltego to collect information about your target.
+
+Red Team Intro CTFs
+
+    Vulnversity - Learn about active recon, web app attacks and privilege escalation.
+    Blue - Deploy & hack into a Windows machine, leveraging common misconfigurations issues.
+    Simple CTF - Beginner level CTF.
+    Bounty Hacker - A space cowboy-themed boot to root machine.
+
+↑
+Level 3 - Crypto & Hashes with CTF practice
+
+    Crack the hash - Cracking hash challenges.
+    Agent Sudo - You found a secret server located under the deep sea. Your task is to hack inside the server and reveal the truth.
+    The Cod Caper - A guided room taking you through infiltrating and exploiting a Linux system.
+    Ice - Deploy & hack into a Windows machine, exploiting a very poorly secured media server.
+    Lazy Admin - Easy linux machine to practice your skills.
+    Basic Pentesting - This is a machine that allows you to practice web app hacking and privilege escalation.
+    Bypassing UAC - Learn common ways to bypass User Account Control (UAC) in Windows hosts.
+
+↑
+Level 4 - Web
+
+    OWASP top 10 - Learn about and exploit each of the OWASP Top 10 vulnerabilities; the 10 most critical web security risks.
+    Inclusion - A beginner-level LFI challenge.
+    Injection - Walkthrough of OS Command Injection. Demonstrate OS Command Injection and explain how to prevent it on your servers.
+    Juiceshop - This room uses the OWASP juice shop vulnerable web application to learn how to identify and exploit common web application vulnerabilities.
+    Overpass - What happens when some broke CompSci students make a password manager.
+    Year of the Rabbit - Can you hack into the Year of the Rabbit box without falling down a hole.
+    DevelPy - Boot2root machine for FIT and bsides Guatemala CTF.
+    Jack of all trades - Boot-to-root originally designed for Securi-Tay 2020.
+    Bolt - Bolt themed machine to root into.
+
+↑
+Level 5 - Reverse Engineering & Pwn
+
+    Intro to x86 64 - This room teaches the basics of x86-64 assembly language.
+    CC Ghidra - This room teaches the basics of ghidra.
+    CC Radare2 - This room teaches the basics of radare2.
+    Reverse Engineering - This room focuses on teaching the basics of assembly through reverse engineering.
+    Reversing ELF - Room for beginner Reverse Engineering CTF players.
+    Dumping Router Firmware - Reverse engineering router firmware.
+    Intro to pwntools - Introduction to popular pwn tools framework.
+    Pwnkit: CVE-2021-4034 - Interactive lab for exploiting and remediating Pwnkit (CVE-2021-4034) in the Polkit package.
+
+↑
+Level 6 - PrivEsc
+
+    Sudo Security Bypass - A tutorial room exploring CVE-2019-14287 in the Unix Sudo Program. Room One in the SudoVulns Series.
+    Sudo Buffer Overflow - A tutorial room exploring CVE-2019-18634 in the Unix Sudo Program. Room Two in the SudoVulns Series.
+    Windows Privesc Arena - Students will learn how to escalate privileges using a very vulnerable Windows 7 VM.
+    Linux Privesc Arena - Students will learn how to escalate privileges using a very vulnerable Linux VM.
+    Windows Privesc - Students will learn how to escalate privileges using a very vulnerable Windows 7 VM.
+    Blaster - Metasploit Framework to get a foothold.
+    Ignite - A new start-up has a few security issues with its web server.
+    Kenobi - Walkthrough on exploiting a Linux machine. Enumerate Samba for shares, manipulate a vulnerable version of proftpd and escalate your privileges with path variable manipulation.
+    Capture the flag - Another beginner-level CTF challenge.
+    Pickle Rick - Rick and Morty themed LFI challenge.
+
+    Congratulations! If you have finished until here. You deserve a badge! Put this in your writeups or git profile. You can continue doing the below CTFs.
+
+Click here to get your red team badge!
+
+↑
+Free Beginner Blue Team Path
+Level 1 - Tools
+
+    Introduction to digital forensics - Intro to Digital Forensics.
+    Windows Fundamentals - Intro to Windows.
+    Nessus - Intro to nessus scan.
+    Mitre - Intro to Mitre attack framework.
+    IntroSIEM - Introduction to SIEM.
+    Yara - Intro to yara for malware analysis.
+    OpenVAS - Intro to openvas.
+    Intro to Honeypots - Intro to honeypots.
+    Volatility - Intro to memory analysis with volatility.
+    Red Line - Learn how to use Redline to perform memory analysis and scan for IOCs on an endpoint.
+    Autopsy - Use Autopsy to investigate artifacts from a disk image.
+
+↑
+Level 2 - Security Operations, Incident Response & Threat Hunting
+
+    Investigating Windows - Investigating Windows.
+    Juicy Details - A popular juice shop has been breached! Analyze the logs to see what had happened.
+    Carnage - Apply your analytical skills to analyze the malicious network traffic using Wireshark.
+    Squid Game - Squid game-themed CTF.
+    Splunk Boss of the SOC V1 - Part of the Blue Primer series, learn how to use Splunk to search through massive amounts of information.
+    Splunk Boss of the SOC V2 - Splunk analysis vol 2.
+    Splunk Boss of the SOC V3 - Splunk analysis vol 3.
+    Hunt Conti with Splunk - An Exchange server was compromised with ransomware. Use Splunk to investigate how the attackers compromised the server.
+    Hunting for Execution Tactic - Join Cyborg Security's expert threat hunters as they dive into the interesting MITRE ATT&CK Tactic of Execution (TA0002).
+    Hunting for Credential Access - Join Cyborg Security's expert threat hunters as they dive into the interesting MITRE ATT&CK Tactic of Credential Access (TA0006).
+    Hunting for Persistence Access - Join Cyborg Security's team of threat hunting instructors for a fun and hands-on-keyboard threat hunting workshop covering the topic of adversarial persistence (TA0003).
+    Hunting for Defense Evation - Join Cyborg Security's expert threat hunters as they dive into the interesting MITRE ATT&CK Tactic of Defense Evasion (TA0005).
+
+↑
+Level 3 - Beginner Forensics & Cryptography
+
+    Martryohka doll - Beginner file analysis challenge.
+    The Glory of the Garden - Beginner image analysis challenge.
+    Packets Primer - Beginner packet analysis challenge.
+    Wireshark doo doo doo - Beginner packet analysis challenge.
+    Wireshark two two two - Beginner packet analysis challenge.
+    Trivial flag transfer protocol - Beginner packet analysis challenge.
+    What Lies within - Beginner decoding analysis challenge.
+    Illumination - Medium level forensics challenge.
+    Emo - Medium level forensics challenge.
+    Obsecure - Medium level forensics challenge.
+    Bucket - Cloud Security Forensics - Medium level cloud security challenge.
+    Introduction to Cryptohack - Medium level cryptography challenge.
+
+↑
+Level 4 - Memory & Disk Forensics
+
+    Sleuthkit Intro - Medium level disk forensics challenge.
+    Reminiscent - Medium level disk forensics challenge.
+    Hunter - Windows Disk Image Forensics - Medium level disk forensics challenge.
+    Spotlight - Mac Disk Image Forensics - Medium level disk forensics challenge.
+    Ulysses - Linux Disk Image Forensics - Medium level disk forensics challenge.
+    Banking Troubles - Windows Memory Image Forensics - Medium level memory forensics challenge.
+    Detect Log4J - Medium level disk forensics challenge.
+
+↑
+Level 5 - Malware and Reverse Engineering
+
+    History of Malware - Intro to malware history.
+    Malware Introduction - Intro to malware.
+    Basic Malware Reverse Engineering - Intro to malware RE.
+    Intro Windows Reversing - Intro to Windows RE.
+    Windows x64 Assembly - Introduction to x64 Assembly on Windows.
+    JVM reverse engineering - Learn Reverse Engineering for Java Virtual Machine bytecode.
+    Get PDF (Malicious Document) - Reversing PDF malware.
+
+    Congratulations! If you have finished until here. You deserve a badge! Put this in your writeups or git profile. You can continue doing the below CTFs.
+
+Click here to get your blue team badge!
+
+↑
+Bonus CTF practice and Latest CVEs
+
+    Bandit - Aimed at absolute beginners and teaches the basics of remote server access.
+    Natas - Teaches the basics of serverside web-security.
+    Post Exploitation Basics - Learn the basics of post-exploitation and maintaining access with mimikatz, bloodhound, powerview and msfvenom.
+    Smag Grotto - An obsecure boot to root machine.
+    Dogcat - I made a website where you can look at pictures of dogs and/or cats! Exploit a PHP application via LFI and break out of a docker container.
+    Buffer Overflow Prep - Practice stack-based buffer overflows.
+    Break out the cage - Help Cage bring back his acting career and investigate the nefarious going on of his agent.
+    Lian Yu - A beginner-level security challenge.
+    Insecure Kubernetes - Exploiting Kubernetes by leveraging a Grafana LFI vulnerability.
+    The Great Escape (docker) - Escaping docker container.
+    Solr Exploiting Log4j - Explore CVE-2021-44228, a vulnerability in log4j affecting almost all software under the sun.
+    Spring4Shell - Interactive lab for exploiting Spring4Shell (CVE-2022-22965) in the Java Spring Framework.
+    Most Recent threats - Learn about the latest industry threats. Get hands-on experience identifying, exploiting, and mitigating critical vulnerabilities.
+
+↑
+Bonus Windows
+
+    Attacktive Directory - Learn about 99% of Corporate networks that run off of AD.
+    Retro - Breaking out of the retro-themed box.
+    Blue Print - Hack into this Windows machine and escalate your privileges to Administrator.
+    Anthem - Exploit a Windows machine in this beginner-level challenge.
+    Relevant - Penetration Testing Challenge.
+
+↑
+Extremely Hard Rooms to do
+
+    Ra - You have found WindCorp's internal network and their Domain Controller. Pwn the network.
+    CCT2019 - Legacy challenges from the US Navy Cyber Competition Team 2019 Assessment sponsored by US TENTH Fleet.
+    Theseus - The first installment of the SuitGuy series of very hard challenges.
+    IronCorp - Get access to Iron Corp's system.
+    Carpe Diem 1 - Recover your client's encrypted files before the ransomware timer runs out.
+    Borderlands - Compromise a perimeter host and pivot through this network.
+    Jeff - Hack into Jeff's web server.
+    Year of the Owl - Owl-themed boot to root machine.
+    Anonymous Playground - Want to become part of Anonymous? They have a challenge for you.
+    EnterPrize - Enterprise-themed network to hack into.
+    Racetrack Bank - It's time for another heist.
+    Python Playground - Use python to pwn this room.
+
+Everything Cyber
+
+General Cyber Courses/Training/Resources
+Amazing Resources For Learning
+edX | Free online courses from the world's best universities
+Udacity - Free Online Classes & Nanodegrees | Udacity
+Khan Academy | Free Online Courses, Lessons & Practice
+3Blue1Brown - Teaches Hard Concepts Well!
+LiveOverflow - Awesome to learn Computer Security
+Welcome to SecurityTube.net
+FSU Course
+Offensive Security 2013 - FSU - Lecture5: Reverse Engineering (x86) Workshop Day 1 - YouTube
+Offensive Computer Security Home Page Spring 2014
+Training for manipulating all kinds of things: Learning Exploitation with Offensive Computer Security 2.0
+RPI Classes
+Modern Binary Exploitation - Spring 2015
+GitHub - RPISEC/MBE: Course materials for Modern Binary Exploitation by RPISEC
+GitHub - RPISEC/Malware: Course materials for Malware Analysis by RPISEC
+security.cs.rpi.edu/courses/malware-spring2013/
+MIT OpenCourseWare
+Computer Systems Security | Electrical Engineering and Computer Science | MIT OpenCourseWare
+Electrical Engineering and Computer Science | MIT OpenCourseWare | Free Online Course Materials
+Network and Computer Security | Electrical Engineering and Computer Science | MIT OpenCourseWare
+Linux Stuff
+Home | Linux Journey
+Complete Noob Intro to Cyber Security
+Live Overflow - Where to start with hacking
+The Importance of Deep Work & The 30-Hour Method for Learning a New Skill | Azeria Labs
+How to Build a Successful Career in Cybersecurity - Daniel Miessler
+Good List of Practice Areas in CyberSecurity
+Hacker Manifesto - Wikipedia
+So, you want to work in security? – freeCodeCamp
+Getting Into Security Engineering
+Stuxnet
+The Jargon File
+How To Become A Hacker
+/r/netsecstudents
+/r/netsec
+LiveOverflow - LiveOverflow
+VeteranSec – A Veteran Cyber Security Community
+Hackaday | Fresh hacks every day
+Infosec Courses Master List
+NYU Tandon Vulnerability Research and Pen Test Course
+CBT Nuggets - Awesome For Certs
+Whitehatters Computer Security Club
+Open Security Training - Lots of Beginner Stuff
+Null Byte — Random Hacking Tutorials
+Free Military Cyber Training - PCTC (Requires Invite?)
+600 free online courses you can take from universities worldwide
+Lynda.com (Requires Library Card) - Lots of Free Training On Various Subjects
+Programming/Comp Sci/SE Things
+Programming Courses and Tutorials
+Specific Programming Language Stuff (C/C++/Python/Java/etc)
+C Stuff
+GT Recommended
+CS50 - Reference
+CS50's Introduction to Computer Science | edX
+CS50
+Practical Programming in C | MIT OpenCourseWare
+Learn C in Y Minutes
+Home | Lynda | Georgia Institute of Technology | Atlanta, GA
+How Do I Declare A Function Pointer in C?
+C Tutorial - Learn C - Cprogramming.com
+Function Pointers in C and C++ - Cprogramming.com
+C documentation — DevDocs
+Intro to OS - C Programming Q&A - YouTube
+C Programming - Q&A.pptm - Google Slides
+Amazon.com: C Programming Language, 2nd Edition (8601410794231): Brian W. Kernighan, Dennis M. Ritchie: Books
+The Linux Programming Interface [Book]
+Books and References
+Translation Phases
+Phases of translation - cppreference.com
+Steps of compiling a C program - Becky Chen - Medium
+The Four Stages of Compiling a C Program
+GCC Preprocessor Options
+Style Things
+Style Guide for C — CS50 Docs
+C Programming Language, 2nd Edition
+C Programming: A Modern Approach, 2nd Edition
+CMU Recommended - C Traps and Pitfalls
+Also CMU Recommended - Computer Systems: A Programmer's Perspective
+Mastering Algorithms with C > Mastering Algorithms with C : Safari Books Online
+C Book Answers
+The Definitive C Book Guide and List – seclab
+C reference - cppreference.com
+C/C++ for Hackers « Null Byte :: WonderHowTo
+Learn C the Hard Way: Practical Exercises on the Computational Subjects You Keep Avoiding (Like C)
+Coding Standards
+Intro to Coding Standards — Coding Rules and Guidelines | Perforce
+Other Useful Things
+c preprocessor - #define macro for debug printing in C? - Stack Overflow
+Beej's Guide to C Programming
+Useful Tutorials and Tools
+C Storage Classes
+10.2 Pointers and Arrays; Pointer Arithmetic
+C for C++ Programmers
+c - What does getting the address of an array variable mean? - Stack Overflow
+cdecl: C gibberish ↔ English
+ridiculousfish/cdecl-blocks: The venerable cdecl, with Apple blocks support
+function - C Assign Pointer to NULL - Stack Overflow
+Data Structures
+C Programming: Advanced Data Types
+Embedded Programming
+Become an embedded programmer in 5 months : learnprogramming
+Pointer Stuff
+pointers - How come an array's address is equal to its value in C? - Stack Overflow
+PointersAndMemory.pdf
+Courses
+Berkeley C Course
+http://www-inst.eecs.berkeley.edu/~selfpace/c/
+How to C (as of 2016)
+cbourke/ComputerScienceI: Computer Science
+Berkeley C Programming
+GitHub - fffaraz/awesome-cpp: A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+How Do I Declare A Function Pointer in C?
+cdecl: C gibberish ↔ English
+How to C (as of 2016)
+C Book Answers
+Mastering Algorithms with C > Mastering Algorithms with C : Safari Books Online
+Learn C The Hard Way
+C/C++ for Hackers « Null Byte :: WonderHowTo
+C reference - cppreference.com
+The Definitive C Book Guide and List – seclab
+Learn C the Hard Way
+Style Guide for C — CS50 Docs
+UMBC | Essential C (45 page summary of everything you need to know)
+C++ Stuff
+Good Learning Material
+Books
+Beginner Books
+The Definitive C++ Book Guide and List - Stack Overflow
+Recommended Book if No Prior Experience in Programming
+Recommended Intro Book for Prior Programmers: A Tour of C++
+Intermediate Books
+Recommended Intermediate Book: Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14
+proper resource management and exception safety in C++ through Resource Acquisition is Initialization (RAII) in addition to in-depth coverage of a variety of other topics including the pimpl idiom, name lookup, good class design, and the C++ memory model
+generic programming, optimization, and resource management; this book also has an excellent exposition of how to write modular code
+101 best practices, idioms, and common pitfalls that can help you to write correct, understandable, and efficient C++ code
+Amazon.com: Accelerated C++: Practical Programming by Example
+The Definitive C++ Book Guide and List - Stack Overflow
+Courses
+Berkeley C++ Course
+Teach Yourself C++ in 21 Days
+Learn C++ | Codecademy
+C++ Tutorial for Complete Beginners | Udemy
+Stroustrup: FAQ
+Introduction to Standard Template Library in C++ | Studytonight
+Good Video Intro to C++ Programming
+Learn C++ - Free Interactive C++ Tutorial
+Learn C++
+C++ Programming Language - GeeksforGeeks
+Storage Classes in C++
+Translation Phases
+Phases of translation - cppreference.com
+The C++ Compilation Process
+C++ Tutorial Front Page - 2018
+C++ FAQ
+Newbie Questions & Answers, C++ FAQ
+Big Picture Issues, C++ FAQ
+C++ Programming/Code/Statements/Functions - Wikibooks, open books for an open world
+Best Practices
+Pass By Reference vs Pass By Value
+Pass By Reference
+c++ - Isn't "const" redundant when passing by value? - Stack Overflow
+Const Correctness, C++ FAQ
+C++ Programming/Code/Statements/Functions - Wikibooks, open books for an open world
+The rule of three/five/zero - cppreference.com
+C++ reference - cppreference.com
+C++ Core Guidelines
+C++ Stuff from r/learnprogramming
+Effective Modern C++ [Book]
+RAII - cppreference.com
+c++ - Why is list initialization (using curly braces) better than the alternatives? - Stack Overflow
+C++ Braced Initialization
+gabime/spdlog: Fast C++ logging library.
+ObjectOrientedProgramminginC4thEdition.pdf
+CPP_v1.1.pdf
+Google C++ Style Guide
+The C++ Standard
+Ampersand (&) operator in a C++ function argument
+pointers - How to pass objects to functions in C++? - Stack Overflow
+Use constexpr for faster, smaller, and safer code | Trail of Bits Blog
+Templates, C++ FAQ
+Coding Standards, C++ FAQ
+Embedded Systems Coding Standard
+Good C++ Coding Standards: 101 Rules, Guidelines, and Best Practices (9780321113580): Herb Sutter, Andrei Alexandrescu: Books
+C++ Core Guidelines
+Coding Standards
+Intro to Coding Standards — Coding Rules and Guidelines | Perforce
+Resource Acquisition is Initialisation (RAII) Explained — Tom Dalling
+Data Structures
+USC - CSCI 104 – Data Structures and Object Oriented Design
+Data Structures and Algorithms in C++, Second Edition: Safari Books Online - Premium
+Notes on Data Structures and Programming Techniques (CPSC 223, Spring 2018)
+Storage Classes in C++
+Memory Management
+Smart Pointers
+Pointers - C++ Tutorials
+A beginner's look at smart pointers in modern C++ - Internal Pointers
+this Pointer | Microsoft Docs
+Memory Management, C++ FAQ
+Unique/Shared/Weak Pointers
+Move smart pointers in and out functions in modern C++ - Internal Pointers
+GotW #89 Solution: Smart Pointers – Sutter’s Mill
+c++ - How to properly duplicate an object given its shared_ptr - Stack Overflow
+c++ - clearing a vector of pointers
+Destructors (C++) | Microsoft Docs
+Smart Pointers (Modern C++) | Microsoft Docs
+How to: Create and Use unique_ptr Instances | Microsoft Docs
+Unique Pointers - Windows applications | Microsoft Docs
+std::unique_ptr - cppreference.com
+Memory Management, C++ FAQ
+GitHub - fffaraz/awesome-cpp: A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+Solve C++ | HackerRank
+TopCoder Problems
+GitHub - rigtorp/awesome-modern-cpp: A collection of resources on modern C++
+Strong vs Weak References – Elliot Chance – Medium
+Solutions to Problems
+c++ - cannot call member function without object - Stack Overflow
+Python
+Courses
+Introduction to Computer Science and Programming in Python - MIT
+Berkeley Python Course
+The Python Tutorial — Python 3.7.0 documentation
+Welcome to Python 101! — Python 101 1.0 documentation
+MIT - Introduction to Computer Science and Programming Using Python
+Learn Python - Free Interactive Python Tutorial
+Videos To Learn From
+Corey Schafer - YouTube
+How to Learn Python Tutorial - Easy & simple! Learn How to Learn Python! - YouTube
+Python Tutorials - YouTube
+Python's Class Development Toolkit - YouTube
+Raymond Hettinger - Beyond PEP 8 -- Best practices for beautiful intelligible code - PyCon 2015 - YouTube
+Transforming Code into Beautiful, Idiomatic Python - YouTube
+What Does It Take To Be An Expert At Python? - YouTube
+python_expert_notes
+Python Network Programming - TCP/IP Socket Programming - YouTube
+Python for Beginners - YouTube
+Advanced Python Style/OOP Stuff
+UsingAssertionsEffectively - Python Wiki
+Data model (Dunder Methods, i.e., repr)
+PEP 8 -- Style Guide for Python Code | Python.org
+Popular Python recipes « ActiveState Code
+oop - What is the difference between @staticmethod and @classmethod in Python? - Stack Overflow
+Enriching Your Python Classes With Dunder (Magic, Special) Methods – dbader.org
+Interfacing Python and C: Advanced “ctypes” Features – dbader.org
+Serious Python | No Starch Press
+Math Adventures with Python | No Starch Press
+How to Write Perfect Python Command-line Interfaces — Learn by Example
+Writing Python Command-Line Tools With Click – dbader.org
+Python - Multiple constructors
+Python 3 Patterns, Recipes and Idioms
+Python Issue Fixes
+python - Permanently add a directory to PYTHONPATH - Stack Overflow
+How do I find the location of Python module sources? - Stack Overflow
+installation - How do I find the location of my Python site-packages directory? - Stack Overflow
+Useful Python things
+8.7. sets — Unordered collections of unique elements — Python 2.7.16 documentation
+I made a threading guide for beginners. : learnprogramming
+Numpy/SciPy
+Linear algebra (numpy.linalg) — NumPy v1.16 Manual
+NumPy and SciPy Documentation
+Mathematical functions — NumPy v1.16 Manual
+Random sampling (numpy.random) — NumPy v1.16 Manual
+Broadcasting — NumPy v1.16 Manual
+Array creation — NumPy v1.16 Manual
+Data types — NumPy v1.16 Manual
+The N-dimensional array (ndarray) — NumPy v1.16 Manual
+Sorting, searching, and counting — NumPy v1.16 Manual
+pandas.DataFrame.fillna — pandas 0.24.2 documentation
+CMU - The Pythonic Way [PDF]
+Automate the Boring Stuff with Python
+PyPI tutorial
+10 Essential Python Tips And Tricks For Programmers - GeeksforGeeks
+Understanding the underscore( _ ) of Python – Hacker Noon
+Python Argparse Cookbook – mkaz.blog
+Cracking Codes with Python
+Python Training by Dan Bader – dbader.org
+How to use SimpleHTTPServer
+Profiling/Timing
+The Python Profilers — Python 3.7.4 documentation
+timeit — Measure execution time of small code snippets — Python 3.7.4 documentation
+Python Tutorial: Home - 2019
+Projects
+OrbitalArt/OrbitalArt.py at master · LAMagicx/OrbitalArt · GitHub
+Books
+iluxonchik/blackhat-python-book: Code from Blackhat Python book
+Java Stuff
+Data Structures
+Java HashSet Tutorial with Examples | CalliCoder
+java - Is it better to use a TreeSet or ArrayList when using a custom comparator - Stack Overflow
+Rust
+Rust Language Cheat Sheet
+x86 Assembly
+Easy x86-64
+Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tools, and Obfuscation
+c - Can I use Intel syntax of x86 assembly with GCC? - Stack Overflow
+ubuntu - Compile/run assembler in Linux? - Stack Overflow
+x86 - How do you use gcc to generate assembly code in Intel syntax? - Stack Overflow
+Assembly Primer For Hackers (Part 1) System Organization - YouTube
+UMBC CMSC313 | Computer Organization & Assembly Language Programming |Spring 2013
+Full Stack Development
+Front End Development
+grab/front-end-guide: 📚 Study guide and introduction to the modern front end stack.
+CSS Tutorial
+JavaScript
+JavaScript Style Guide
+Frameworks
+React – A JavaScript library for building user interfaces
+AngularJS — Superheroic JavaScript MVW Framework
+A collection of full-stack resources for programmers.
+YouTube - Web Dev Stuff
+freeCodeCamp - Full Stack Tutorial
+Courses | The Odin Project
+Full Stack Book: crash-course-django
+Super Crash Course in Full Stack Web Development with Python and Django
+The Odin Project | Free Course on Web Development
+Syllabus - CS50 Beyond
+Unix Stuff (Shell Stuff)
+Courses
+Berkeley UNIX Course
+Learn Shell Programming - Free Interactive Shell Programming Tutorial
+The Bash Guide
+BashGuide - Greg's Wiki
+The Linux Documentation Project: Guides
+#!/bin/bash
+Linux Command Line Tutorial
+LinuxCommand.org: Learning the shell.
+Bash Guide for Beginners
+The Bash Academy
+A curated list of Shell Stuff
+OverTheWire: Bandit - Wargame For Learning UNIX Shell Stuff
+OverTheWire: Leviathan - Unix Wargame
+Bash tips & tricks: good and not-so-good bash practices | Pragmatic Coders
+Bash scripting cheatsheet
+Understanding Awk – Practical Guide – Developers Area
+command line - How to iterate over arguments in a Bash script - Stack Overflow
+how to access the next argument of command line parameters in bash? - Unix & Linux Stack Exchange
+Multiple conditions in if statement shell script - Stack Overflow
+Open Source: 2018 - Java/C++/Python/BigData/Android/
+Project-based-learning: Curated list of project-based tutorials
+Intro Courses/Tutorials/Books
+Books
+free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books
+The Pragmatic Programmer: From Journeyman to Master: 8601404321023: Computer Science Books @ Amazon.com
+Free Programming Books – GoalKicker.com
+What book made you a better developer? : learnprogramming
+Structure and Interpretation of Computer Programs
+SICP - Structure and Interpretation of Computer Programs
+The Pragmatic Programmer: From Journeyman to Master: 8601404321023: Computer Science Books @ Amazon.com
+free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books
+Free Programming Books – GoalKicker.com
+Welcome to the SICP Web Site
+Catalog - zyBooks
+Code Complete: A Practical Handbook of Software Construction, Second Edition: Steve McConnell: 0790145196705: Amazon.com: Books
+Harvard Stuff (CS 50)
+CS50
+CS50's Introduction to Computer Science | edX
+CS50 - Reference
+Introduction to Game Development
+CSCI S-51: Introduction to Computer Science II
+CS 61: Systems Programming and Machine Organization
+Carnegie Mellon - Intro to Comp Sci
+CMU - Intro to Computer Systems and Foundations of Computer Systems
+Berkeley Intro to CS, DS, and Comp Arch
+Berkeley 61A - Intro to CS
+Berkeley 61B - Data Structures
+Berkeley 61C - Computer Architecture
+Berkeley CS and EE Course Achives
+Computer Science 61A, 001 - Spring 2011 : Free Movies : Free Download, Borrow and Streaming : Internet Archive
+MIT - Writing Good Code
+MIT - Software Construction - How to write good code
+Awesome Videos
+CS Dojo - CS Stuff Explained Well!
+Recursion for Beginners: A Beginner's Guide to Recursion - YouTube
+How to solve coding interview problems ("Let's leetcode") - YouTube
+Great Intro Videos - Back To Back SWE - YouTube
+Daniel Schiffman - Tons of Coding Tutorials and Challenge Walkthroughs
+Blog Posts To Read
+ABC: Always Be Coding – Always Be Coding – Medium
+Stevey's Blog Rants: Get that job at Google
+Is CS Useful? What is CS?
+Is it possible to be self taught and get a good job without a degree?
+Is computer science all about coding? If not, what do we actually learn in computer science in the university? - Quora
+Is "Computer Science != Software Engineering" an excuse to teach programming poorly? - Software Engineering Stack Exchange
+Other Good CS Stuff
+Intro to Programming, Data Structures, Algorithms
+ossu/computer-science: Path to a free self-taught education in Computer Science!
+Coding-interview-university: A complete computer science study plan to become a software engineer.
+Teach Yourself Computer Science
+List of free university courses for learning Computer Science!
+awesome-courses
+Googles CS Guide
+professional-programming github repo
+Learn Computer Science | Free Online Courses | Class Central
+Intro to Systems Software - C/x86 ASM/Memory Management/GDB
+Best Practices and Advanced Topics for Programming
+Books and Videos
+Programming Pearls (2nd Edition): Jon Bentley: 0785342657883: Amazon.com: Books
+Code Complete: A Practical Handbook of Software Construction, Second Edition: Steve McConnell: 0790145196705: Amazon.com: Books
+First Few Chaps CMU Recommended - The Practice of Programming (Addison-Wesley Professional Computing Series) eBook: Brian W. Kernighan, Rob Pike: Kindle Store
+Martin Fowler @ OOP2014 "Workflows of Refactoring" - YouTube
+Understanding Computation
+Makefile/CMake
+Must Read - Makefiles – Mrbook's Stuff
+Automatic make file generator
+GNU make
+CMake Tutorial | CMake
+Introduction to CMake | Skand Hurkat
+CMake Tutorial | CMake
+Unix Makefile Tutorial
+GNU Make Manual - GNU Project - Free Software Foundation
+Makefile Tutorial by Example
+GNU make
+Optimization
+Basic tips for optimizing code for speed
+Cell lists - Wikipedia
+java - Why is "2 * (i * i)" faster than "2 * i * i"? - Stack Overflow
+Refactoring, Object Oriented Programming, and Design Patterns
+Object Oriented Programming
+Books for OOP
+The Best Go To Book for Design Patterns
+Refactoring: Improving the Design of Existing Code
+Videos for OOP
+"The Clean Code Talks -- Inheritance, Polymorphism, & Testing" - YouTube
+C++ Tutorial 11 : Polymorphism - YouTube
+"Uncle" Bob Martin - YouTube
+Courses for OOP
+Introduction to Object-oriented Programming - MIT OpenCourseWare
+Object-Oriented Programming - MIT OpenCourseWare
+Encapsulation, Inheritance, Shadowing - MIT OpenCourseWare
+University of Helsinki - Object-Oriented programming with Java, part I
+Stanford - CS108: Object Oriented Programming
+Design Patterns | Object Oriented Design
+SOLID - Wikipedia
+the_skills_poor_programmers_lack.md
+Polymorphism - C++ Tutorials
+OOP Concept for Beginners: What is Abstraction?
+4.2. Introduction to Object Oriented Programming — OpenDSA Data Structures and Algorithms Modules Collection
+Design Patterns
+All Design Patterns Video Tutorials - YouTube
+Software Design Patterns - GeeksforGeeks
+Head First Design Patterns Book
+Refactoring
+Code refactoring - Wikipedia
+Refactoring: When and Why (Okay example in PERL)
+The Clean Coder: A Code of Conduct for Professional Programmers: Robert C. Martin: 4708364241379: Amazon.com: Books
+Refactoring
+Notes on Data Structures and Programming Techniques (CPSC 223, Spring 2018)
+MIT - Software Construction - How to write good code
+Pointer Stuff
+Double Pointers in C/C++ - DEV Community 👩‍💻👨‍💻
+Chapter 22: Pointers to Pointers
+User Programming References
+kernel_user_space_howto - The Linux Documentation Project
+LXR / The Linux Cross Reference
+linux - What is the difference between procfs and sysfs? - Unix & Linux Stack Exchange
+Configfs - an introduction [LWN.net]
+debugfs - yet another in-kernel file system [LWN.net]
+Kernel Korner - Why and How to Use Netlink Socket | Linux Journal
+networking:generic_netlink_howto [Wiki]
+Generic Netlink HOW-TO based on Jamal's original doc [LWN.net]
+ioctl - Wikipedia
+Advanced Programming Topics
+Computer Programming/Standards and Best Practices - Wikibooks, open books for an open world
+Set (abstract data type) - Wikipedia
+Library (computing) - Wikipedia
+Code Review Stack Exchange
+Interview Stuff
+MUST READ - The Interview Study Guide For Software Engineers
+How do you get better at coding interviews? : learnprogramming
+A list of events and fellowship opportunities for Computer Science students
+tech-interview-handbook: Algorithms study materials, behavioral content and tips for rocking your coding interview
+Google Interview Problems: Synonymous Queries – Alex Golec – Medium
+joyoyao/interviews: Everything you need to know to get the job.
+The Interview Study Guide For Data Engineers
+User Level thread Vs Kernel Level thread - LeetCode Discuss
+Intro to Processes & Threads - YouTube
+Difference Between Process and Thread - Georgia Tech - Advanced Operating Systems - YouTube
+Difference between forking and multithreading - LeetCode Discuss
+General Data Structures and Algorithms Stuff
+Algorithms
+Courses
+Intro To Algorithms Courses
+Algorithms, Part I | Coursera
+Algorithms, Part II | Coursera
+Algorithms by Jeff Erickson
+JeffE-Algorithms Hw's, Labs, and Tests
+JeffE - Algorithms - Lecture and Lab Schedule
+Intro to Algorithms | Udacity
+Introduction to Algorithms | Electrical Engineering and Computer Science | MIT OpenCourseWare
+Graduate Intro to Algorithms
+Introduction to Graduate Algorithms - Udacity
+Advanced Algorithms Courses
+Harvard - Advanced Algorithms (CS 224)
+Advanced Data Structures - GeeksforGeeks
+Good Videos For Algorithms
+19. Dynamic Programming I: Fibonacci, Shortest Paths - YouTube
+What is complexity theory? (P vs. NP explained visually) - YouTube
+Algorithms: Graph Search, DFS and BFS - YouTube
+Algorithms: Binary Search - YouTube
+Binary Search Tree Review - YouTube
+Python Algorithms for Interviews - YouTube
+Algorithms: Recursion - YouTube
+Algorithms: Bubble Sort - YouTube
+Algorithms: Merge Sort - YouTube
+Algorithms: Quicksort - YouTube
+Introduction to Big O Notation and Time Complexity (Data Structures & Algorithms #7) - YouTube
+Asymptotic Notation - YouTube
+Dynamic Programming (Think Like a Programmer) - YouTube
+Algorithms: Memoization and Dynamic Programming - YouTube
+Dynamic Programming I: Fibonacci, Shortest Paths - YouTube
+Dynamic Programming II: Text Justification, Blackjack - YouTube
+VisuAlgo - visualising data structures and algorithms through animation
+Algorithms for Visual Learners | Hackaday
+Algorithms | Computer science | Computing | Khan Academy
+Red Blob Games
+Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell
+A Gentle Introduction to Algorithm Complexity Analysis
+Analysis of Algorithms | Set 4 (Analysis of Loops) - GeeksforGeeks
+Greedy Archives - GeeksforGeeks
+Oracle machine - Wikipedia
+Introduction to A*
+Introduction to the A* Algorithm
+Data Structures
+Good Videos for Data Structures
+Data Structures & Algorithms #1 - What Are Data Structures? - YouTube
+Dynamic Arrays - Dynamic Arrays and Amortized Analysis | Coursera
+Data Structures: Linked Lists - YouTube
+UC San Diego - Linked Lists vs. Arrays - Interfaces, Linked Lists vs. Arrays, and Correctness
+Data Structures: Trees - YouTube
+Data Structures: Heaps - YouTube
+Data Structures: Hash Tables - YouTube
+UC San Diego - Phone Book Problem - Hash Tables | Coursera
+Data Structures: Stacks and Queues - YouTube
+Data Structures: Crash Course Computer Science #14 - YouTube
+Data Structures: Tries - YouTube
+Software Engineering
+Berkeley Foundations of Software Engineering
+UC Berkeley CS 169 Software Engineering
+Allen Holub: Training/Consulting/Programming: Agile, Architecture, Swift, Java
+CMU - Syllabus for Software Engineering
+Computer Organization and Architecture
+Georgia Tech - High Performance Computer Architecture - Udacity
+MIT - Comp Org, Arch, and Digital Design
+Cornell - CS 3410 Comp System Organization - Fall 2016
+CMU - Intro To Computer Architecture - Spring 2019
+Operating Systems and Systems Programming
+Books and Videos
+Carnegie Mellon University OS Course
+OS Book used by CMU
+Other OS Book used by CMU
+Processes and Threads
+User Level thread Vs Kernel Level thread - LeetCode Discuss
+Intro to Processes & Threads - YouTube
+Difference Between Process and Thread - Georgia Tech - Advanced Operating Systems - YouTube
+Difference between forking and multithreading - LeetCode Discuss
+Good Books for Operating Systems
+The Linux Programming Interface: A Linux and UNIX System Programming Handbook: Michael Kerrisk: 9781593272203: Amazon.com: Books
+Advanced Programming in the UNIX Environment, 3rd Edition: W. Richard Stevens, Stephen A. Rago: 9780321637734: Amazon.com: Books
+Computer Systems: An Integrated Approach to Architecture and Operating Systems: Umakishore Ramachandran, William D. Leahy Jr.: 9780321486134: Amazon.com: Books
+Good Videos for Operating Systems
+Bitwise, Day 0: Overview and Q&A - YouTube
+Write your own Operating System - YouTube
+The little book about OS development
+OS Courses
+Georgia Tech
+Georgia Tech Graduate Intro to Operating Systems
+Lecture Notes
+Recommended Research Papers
+ud923-birrell-paper.pdf
+eykholt.pdf
+ud923-stein-shah-paper.pdf
+paper.dvi
+The Case For Architecture-Aware OS Kernel
+The performance of spin lock alternatives for shared-money multiprocessors - Parallel and Distributed Systems, IEEE Transactions on
+Formal Requirements for Virtualizable Third Gen Architectures
+Virtual Machine Monitors: Current Tech and Future Trends
+Implementing Remote Procedure Calls
+Caching in the Sprite Network File System
+Distributed Shared Memory: Concepts and Systems - IEEE Parallel & Distributed Technology: Systems & Applications
+GOOD - SystemProgramming Wiki · GitHub
+An Introduction to programming with threads
+hessmjr/operating-systems: Georgia Tech OMSCS - Operating Systems
+drharris/pretty-bonnie: Helps with Bonnie test output on Udacity.
+Interactive map of Linux kernel
+Linux source code: (v4.20) - Bootlin
+Spring19-schedule.xlsx - Google Sheets
+.net - What's the purpose of Thread.SpinWait method? - Stack Overflow
+CppCon 2018: Greg Law “Debugging Linux C++” - YouTube
+The Linux Programming Interface: A Linux and UNIX System Programming Handbook: Michael Kerrisk: 9781593272203: Amazon.com: Books
+Introduction to Operating Systems | Udacity
+Georgia Tech Advanced Operating Systems
+AOSPrereq-and-Concepts-List.pdf
+Advanced Operating Systems Readings - Udacity
+CS 2200 An Introduction to Computer Systems and Networks
+CS 2200 - Prof. Kishore Ramachandran - YouTube
+MIT
+MIT - Operating System Engineering - Fall 2014
+Stanford
+Stanford - Operating Systems - Spring 2014
+Berkeley
+Berkeley CS 162: Operating Systems and Programming
+CUNY - UNIX System Programming
+Thread and Process Stuff
+A gentle introduction to multithreading - Internal Pointers
+multithreading - Why should I use a thread vs. using a process? - Stack Overflow
+Thread safety - Wikipedia
+Atomic vs. Non-Atomic Operations
+Can multithreading be implemented on a single processor system? - Stack Overflow
+Parallelism vs. Concurrency - HaskellWiki
+Difference between Multiprogramming, Multitasking, Multithreading and Multiprocessing
+Inter-process communication - Wikipedia
+Process (computing) - Wikipedia
+Concurrency (computer science) - Wikipedia
+Parallel computing - Wikipedia
+Multithreading (computer architecture) - Wikipedia
+multithreading - When one thread blocks in C, why doesn't the entire process block - Stack Overflow
+multithreading - Why blocking system calls blocks entire procedure with user-level threads? - Stack Overflow
+RTOS
+Waterloo - CS452 - Spring 2012
+Linux Specific Stuff
+Linux Kernel Research Stuff
+User-mode Linux - Wikipedia
+Heavily Commented Linux Kernel Source Code
+Wonderful World of Linux 3.0 | Kniggit.net
+linux_internals.pdf
+System call - Wikipedia
+The Linux Kernel Module Programming Guide (2.6)
+Syscall Hijacking: Dynamically obtain syscall table address (kernel 2.6.x) | memset's blog
+Syscall Hooking via the Interrupt Descriptor Table (2.6)
+CMSC 421 - Adding a System Call to the Linux Kernel
+SYSENTER - OSDev Wiki
+HowTos/I need the Kernel Source - CentOS Wiki
+Implementing a System Call on Linux 2.6 for i386
+The Linux Kernel, Kernel Modules And Hardware Drivers
+The Linux Kernel API
+Linux Interrupt Handling
+Understanding the Linux Kernel, Third Edition - Amazon
+How Computers Boot Up | Many But Finite
+understanding linuxvmm
+The Kernel Boot Process | Many But Finite
+How The Kernel Manages Your Memory | Many But Finite
+Anatomy of a Program in Memory | Many But Finite
+System Calls Make the World Go Round | Many But Finite
+Page Cache, the Affair Between Memory and Files | Many But Finite
+Memory Translation and Segmentation | Many But Finite
+CPU Rings, Privilege, and Protection | Many But Finite
+Linux Memory Management
+Inside the Linux 2.6 Completely Fair Scheduler – IBM Developer
+Tour of the Linux kernel source
+IPC - Interprocess Communication Mechanisms
+Message Queue/IPC
+Beej - Message Queues
+Message Queue
+Memory Management
+Shared Memory
+Shared Memory - Advanced Linux Programming - pg 98-100
+Mapped Memory
+Memory Management
+Linux Memory Management
+Process & Threads
+Pthreads
+Pthread Examples
+An overview of Linux processes - Real world Linux Blog
+TLDP - Ch 4 - Processes
+Introduction to Linux Threads – Part I
+How to Create Threads in Linux (With a C Example Program)
+What are Linux Processes, Threads, Light Weight Processes, and Process State
+Linux Kernel and Device Driver Programming
+Linux Device Drivers, 3rd Edition: Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman: 9780596005900: Amazon.com: Books
+Linux Kernel Teaching — The Linux Kernel documentation
+Is linux 'the eudyptula challenge' still alive? - Quora
+The Linux Kernel: Table of Contents
+Embedded Linux, kernel and real-time presentations - Bootlin
+Semaphores - Advanced Linux Programming - pg 101-103
+The Linux Programmers Guide
+Linux Kernel Programming Challenge | eudyptula-challenge
+Generic Kernels and Kernel Programming
+Kernels 101 – Let’s write a Kernel - Arjun Sreedharan
+Kernels 201 - Let’s write a Kernel with keyboard and screen support - Arjun Sreedharan
+Amazing Free OS Book | Operating Systems: Three Easy Pieces
+Intro OS Resources
+PRIMER - Unix and Internet Fundamentals
+MikeOS - simple x86 assembly language operating system
+The Art of Unix Programming
+Operating systems development for Dummies – Leo Whitehead – Medium
+Writing a Tiny x86 Bootloader - Joe Bergeron
+Write an OS from scratch. A book for self-learner.
+Malloc tutorial
+raspberry-pi-os: Learning operating system development using Linux kernel and Raspberry Pi
+Writing a Bootloader Part 1 | Alex Parker's Website
+Paging Implementation
+x89k - OS Dev for Dummies
+GitHub - lduck11007/os-tutorial: How to create an OS from scratch
+Distributed Systems and Parallel Computing
+CMU - Distributed Systems
+Problem Sets and Solutions
+Guide to Reliable Distributed Systems: Building High-Assurance Applications and Cloud-Hosted Services
+P1-handout.pdf
+P2-handout.pdf
+P3-handout.pdf
+P4-handout.pdf
+ProblemSet1.pdf
+ProblemSet2.pdf
+ProblemSet3.pdf
+ProblemSet4.pdf
+Distributed Systems: Principles and Paradigms
+Course Readings
+15-440, Fall 2010: Distributed Systems
+UMBC Distributed Systems
+IS651 | Distributed Systems
+Distributed Systems Textbook
+A pattern language for microservices
+NGINX - Register for free books and info
+Waterloo - Programming for Performance
+MIT - Distributed Systems
+CMU - Parallel Computer Architecture and Programming : Parallel Computer Architecture and Programming : 15-418/618 Spring 2015
+Introduction to Parallel Computing
+Designing Data-Intensive Applications - O'Reilly Media
+CSEP552: PMP Distributed Systems, Spring 2013
+Functional Programming / Programming Language Design
+Princeton - COS 326: Functional Programming
+UC Berkeley - CS164: Hack Your Language!
+Cornell - CS 3110 - Functional Programming and DS
+Intro to Programming Languages
+15-150 Tools
+Programming in Standard ML Book
+CS 15-150: Principles of Functional Programming (Fall 2015)
+CS 5010: Program Design Paradigms
+CSCI 334: Principles of Programming Languages
+Repl.it - Oak Programming Language
+Compilers
+Compiler Specific Courses
+UMD - CMSC430: Introduction to Compilers
+Stanford - CS143: Compilers
+UIUC - CS 421 Programming Languages and Compilers
+Cornell - CS 4120 - Intro to Compilers
+Compilers and Compiler Generators
+compiler construction - What's the difference between parse trees and abstract syntax trees? - Stack Overflow
+Linkers and Loaders
+CS 738: Advanced Compiler Optimizations
+UT Austin - Advanced Compiler Techniques
+Compilers: Principles, Techniques, and Tools --- Second Errata Sheet
+Compilers: Principles, Techniques, and Tools - Wikipedia
+Engineering A Compiler - Google Search
+ELI5: What is LLVM? Can it be used for general purpose programming? : learnprogramming
+LLVM Language Reference Manual — LLVM 10 documentation
+LLVM Project Blog: Clang is now used to build Chrome for Windows
+c++ - How to generate assembly code with clang in Intel syntax? - Stack Overflow
+Cocoa Samurai: Understanding the Objective-C Runtime
+A Guide To Parsing: Algorithms And Terminology
+Difference between LL and LR parsing? - Stack Overflow
+Good Lectures/Slides: CS143: Compilers
+Machine Learning/AI/Data Science
+Intro to Machine Learning?
+7 Steps to Mastering Machine Learning With Python
+Top 10 Machine Learning Algorithms for Beginners
+8 Fun Machine Learning Projects for Beginners
+Andrew NG Intro to Machine Learning
+scikit-learn: machine learning in Python — scikit-learn 0.19.1 documentation
+Metacademy - Deep learning from the bottom up
+Deep Learning For Coders—36 hours of lessons for free
+Machine Learning - complete course notes
+Machine Learning Tutorial Part 1 | Machine Learning For Beginners - YouTube
+Machine Learning Books
+Pattern Recognition and Machine Learning (Information Science and Statistics): Christopher M. Bishop: 9780387310732: Amazon.com: Books
+Machine Learning: The Art and Science of Algorithms that Make Sense of Data: Peter Flach: 9781107422223: Amazon.com: Books
+Foundations of Machine Learning (Adaptive Computation and Machine Learning series): Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar: 9780262018258: Amazon.com: Books
+Introduction to Evolutionary Computing (Natural Computing Series): Agoston E. Eiben, J.E. Smith: 9783642072857: Amazon.com: Books
+Field Guide to Genetic Programming
+Artificial Intelligence: A Modern Approach (3rd Edition)
+Machine Learning Books : MachineLearning
+Essentials.pdf
+An Introduction to Genetic Algorithms (Complex Adaptive Systems): Melanie Mitchell: 9780262631853: Amazon.com: Books
+Microsoft Word - EvolProg_Introduction.doc
+awesome-machine-learning/books.md at master · josephmisiti/awesome-machine-learning · GitHub
+Machine Learning Courses
+Crash Courses
+https://ml.berkeley.edu/blog/2016/11/06/tutorial-1/
+Machine Learning & Artificial Intelligence: Crash Course Computer Science #34 - YouTube
+Crash Course in Machine Learning – IoT For All – Medium
+Machine Learning Crash Course 2015 - YouTube - YouTube
+Prof. Lorenzo Rosasco (part 1) - Machine Learning: A basic toolkit - YouTube
+Cornells Machine Learning for Intelligent Systems
+Syllabus | Machine Learning for Intelligent Systems
+CORNELL CS4780 "Machine Learning for Intelligent Systems"
+Lecture Notes
+A List of Awesome Machine Learning Courses
+Another Awesome List of Machine Learning Courses
+Artificial Intelligence | Electrical Engineering and Computer Science | MIT OpenCourseWare
+13. Learning: Genetic Algorithms - YouTube
+Deep Learning Summer School, Montreal 2015 - VideoLectures - VideoLectures.NET
+9.520/6.860, Fall 2017
+Stanford University: Tensorflow for Deep Learning Research
+Columbia - Machine Learning 4771
+CS 189/289A: Introduction to Machine Learning
+Stanford University CS224d: Deep Learning for Natural Language Processing
+Stanford University CS231n: Convolutional Neural Networks for Visual Recognition
+oxford-cs-deepnlp-2017
+Meh
+Kaggle: Your Home for Data Science
+Deep Learning
+Tutorials « Deep Learning
+Deep Learning Tutorials — DeepLearning 0.1 documentation
+Creating a genetic algorithm for beginners
+MarI/O - Machine Learning for Video Games - YouTube
+NEATEvolve.lua - Pastebin.com
+AI Courses
+Intro AI Resources
+Berkeley AI Materials
+Cornell - CS 4700: Foundations of Artificial Intelligence
+Cornell - CS 6700: Advanced Artificial Intelligence
+MIT - The Society of Mind | Electrical Engineering and Computer Science | MIT OpenCourseWare
+Data Science
+How to Stream Text Data from Twitch with Sockets in Python – LearnDataSci
+Learn Data Science | Free Online Courses | Class Central
+Statistics and R
+CS109 Data Science
+Learning From Data - Online Course (MOOC)
+Algorithms for Big Data (CS 229r)
+Reinforcement Learning
+Q Learning
+A Painless Q-Learning Tutorial
+RL Course
+Reinforcement Learning Introduction - Georgia Tech - Machine Learning - YouTube
+Collection: Getting started with machine learning · GitHub
+GitHub - josephmisiti/awesome-machine-learning: A curated list of awesome Machine Learning frameworks, libraries and software.
+Topic: evolutionary-computation · GitHub
+A curated list of adversarial machine learning resources
+AISecurity Resources
+Machine Learning for Cyber Security Resources
+Introduction To Genetic Algorithms | Codecademy
+index - MachineLearning
+Welcome — Theano 1.0.0 documentation
+TensorFlow
+Start Here With Machine Learning - Machine Learning Mastery
+Choosing the right estimator — scikit-learn 0.19.1 documentation
+Geoffrey Hinton Neural Networks for Machine Learning
+[D] What is the best ML paper you read in 2018 and why? : MachineLearning
+/r/Machine Learning
+Intro Machine Learning Resources
+Georgia Tech | Machine Learning
+Machine Learning Challenges
+openai Gym
+Computer Vision
+jbhuang0604/awesome-computer-vision: A curated list of awesome computer vision resources
+Intro Computer Vision Resources
+Secure Programming
+Electric Fence - eLinux.org
+GFlags and PageHeap - Windows drivers | Microsoft Docs
+Using the Pointer Ownership Model to Secure Memory Management in C and C++
+Network Programming
+Beej's Guide to Network Programming
+Intro Computer Networks Resources
+Unix Network Programming, Volume 1: The Sockets Networking API (3rd Edition): W. Richard Stevens, Bill Fenner, Andrew M. Rudoff: 0884527655420: Amazon.com: Books
+Linux Howtos: C/C++ -> Sockets Tutorial
+High Performance Computing
+Agner Fog
+Gamasutra: Niklas Gray's Blog - Data Structures Part 1: Bulk Data
+/r/learnprogramming
+/r/csMajors
+Making a contribution to an Open Source project on GitHub and whoa! : learnprogramming
+Booting an Intel Architecture System, Part I: Early Initialization | Dr Dobb's
+Communications of the ACM
+unicode - What is exactly an overlong form/encoding? - Stack Overflow
+SW Reverse Engineering/Malware Analysis
+Courses/Learning/Challenges
+Books
+Reverse Engineering for Beginners Book (REALLY LONG)
+Reversing: Secrets of Reverse Engineering: Eldad Eilam
+The IDA Pro Book: The Unofficial Guide to the World's Most Popular Disassembler: Chris Eagle
+Hacker Disassembling Uncovered: Powerful Techniques To Safeguard Your Programming: Kris Kaspersky: 9781931769228: Amazon.com: Books
+The Shellcoder's Handbook: Discovering and Exploiting Security Holes: Chris Anley, John Heasman, Felix Lindner, Gerardo Richarte: 9780470080238: Amazon.com: Books
+Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tools, and Obfuscation
+The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory
+Gray Hat Hacking: The Ethical Hacker's Handbook, Fifth Edition
+The Antivirus Hacker's Handbook
+Exploiting Software: How to Break Code: Greg Hoglund, Gary McGraw: 9780201786958: Amazon.com: Books
+Reverse Engineering for Beginners
+Intro Courses
+Good Hands On Intro to Cracking and Basic RE
+Lenas Reversing for Newbies
+Tutorials « The Legend Of Random
+Cracking Sublime Text 3
+zerosum0x0: Removing Sublime Text Nag Window
+Video Presentations
+Reverse Engineering 101 - NYU Poly - 2009
+Reverse Engineering 101 - NYU:Poly 2010
+Reverse Engineering 102 - NYU:Poly 2010
+Reverse Engineering 1 - NYU Poly 2011
+Reverse Engineering 2 - NYU Poly 2011
+Open Security Training
+Open Security Training - Introduction To Reverse Engineering
+Open Security Training - Life Of Binaries
+Software RE Resources | NSA Codebreaker Challenge
+Software Reverse Engineering and Malware Analysis
+Microcorruption - Interactive Intro to RE
+RE for Beginners | Reverse Engineering
+RPI - CSCI 4971 - Secure Software Principles (RE stuff)
+RE guide for beginners: Methodology and tools - Reverse Engineering - 0x00sec
+Reverse Engineering 101 - Reverse Engineering - 0x00sec
+[Tutorial] Reversing a multi stage binary step-by-step - Reverse Engineering - 0x00sec - The Home of the Hacker
+RPISEC INTROSEC
+How to Reverse Engineer Software (Windows) in a Right Way
+Bootstrapping Understanding: An Introduction to Reverse Engineering
+Challenges
+Bombs
+RPI Bomb
+Reversing and Exploiting a Nuclear Bomb ;) - Reverse Engineering - 0x00sec - The Home of the Hacker
+Linux Bomb Walkthrough – Part1 (Setup) – mcb101
+Crackme
+Crackmes.one
+[KEYGENME - EASY] Cracking Your First Program - Reverse Engineering / Challenges - 0x00sec
+Malwarebytes CrackMe 2 by hasherazade
+Mastermind crackme by Spider
+How to solve the Malwarebytes CrackMe: a step-by-step tutorial | Malwarebytes Labs
+Crypto
+The Cryptopals Crypto Challenges
+CTF Writeups/Challenges
+VIDEO: Tips, Tricks, and Clues to Escape the LabyREnth CTF
+Palo Alto - LabyREnth
+[Crackme] ESET Crackme Challenge 2015 - Archived - Tuts 4 You
+"ESET - Malware analyst challenge"
+ESET CrackMe Challenge 2015 Walkthrough - UIC Academy
+Crack me ESET site
+SANS 2018 Holiday Hack Writeup
+SANS Penetration Testing | SANS 2015 Shmoo Challenge Winners and Official Answer | SANS Institute
+ROOTCON 2019's CTF Writeups for Web Category - InfoSec Write-ups - Medium
+SAN 2015 Challenge #ShmooCon - writeup
+SANS 2017 Holiday Hack Writeup
+2018 Flare-On Challenge Solutions « 2018 Flare-On Challenge Solutions | FireEye Inc
+2019 Flare-On Challenge Solutions | FireEye Inc
+Coding | Reversing: Flare-On Challenge 2017 Writeup
+2017 Flare-On Challenge Solutions « 2017 Flare-On Challenge Solutions | FireEye Inc
+Network Forensics Puzzle Contest
+Network Forensics Puzzle Contest 2014 Walkthrough – Network Forensics Puzzle Contest
+Network Forensics Puzzle 2014 – BytePuzzles
+DEFCON 22 Network Forensics Puzzle Contest Walkthrough : netsec
+SANS Digital Forensics and Incident Response Challenge
+Reverse Engineering & Exploitation of a “Connected Alarm Clock” – Courk's Blog
+2018 B-day Reverse Engineering Challenge
+CSAW_2009 RE Challenge
+Flareon 5 Challenge 6 - Magic (Walk through - Reverse Engineering) - YouTube
+Reverse Engineering challenges
+pwnable.xyz
+https://www.reversinghero.com
+Programming/Assembly Concepts for RE
+BOLO: Reverse Engineering — Part 1 (Basic Programming Concepts)
+BOLO: Reverse Engineering — Part 2 (Advanced Programming Concepts)
+Assembly Basics
+Getting ready for Assembly Programming – Anatomy of Intel Processor - Part 2
+Getting ready for Assembly Language Programming – Part 1
+Getting started with Assembly language programming - End of theory - Part 3
+Assembly Language Programming and Shellcoding - Lab setup and some important things - Part 4
+Assembly Language Programming and Shellcoding - Hello World - Part 5
+Assembly Language Programming and Shellcoding - Important Functions - Part 6
+Assembly Language Programming and Shellcoding – Important Functions – Part 7
+A crash course in x86 Assembly
+Guide to x86 Assembly
+Linux RE - 64bit
+Part 1 - Reverse Engineering Basics - Linux x64
+Part 1-2 – Reverse Engineering Password Protected Reverse Shells – Linux x64
+Part 3 - Reverse Engineering Basics - Linux on ARM64
+Part 3-2 - Reverse Engineering - Patching Binaries with Radare2 - ARM64 - ScriptDotSh
+Windows RE - 64bit
+Part 2 - Reverse Engineering Basics - Windows x64 - ScriptDotSh
+Part 2-2 – Reverse Engineering – XOR encryption – Windows x64 - ScriptDotSh
+Part 2-3 – Reverse Engineering – Building Cracked Binaries – Windows x64 - ScriptDotSh
+Wargames
+OverTheWire: Maze - exploitation/programming/RE Wargame
+OverTheWire: Semtex - Exploitation and RE
+Shitsco CTF Problem Walkthrough – Georgia Weidman – Medium
+Blizzard CTF 2017 – The LichKing Reverse Engineering challenge walkthrough | Shortjump!
+Beginner RE Resources
+[Tutorial] An example of reversing an undocumented game file format
+Exam surveillance - the return. (ExamCookie) | vmcall
+Debugging
+GDB - Debugger
+Record and Replay
+GDB and Reverse Debugging
+gdb record and replay - Google Search
+gdb server - Google Search
+gdb - How do I use watchpoints?
+Debugging with GDB - Set Watchpoints
+GDB Command Reference - Breakpoint and watchpoint management
+Debugging with GDB: Reverse Execution
+reverse-continue gdb - Google Search
+Beej's Quick Guide to GDB
+RMS's gdb Tutorial
+GDB and Pwntools training
+Debugging with GDB Introduction | Azeria Labs
+longld/peda: PEDA - Python Exploit Development Assistance for GDB
+Using GDB to Develop Exploits - A Basic Run Through
+GDB Command Reference - x command
+GDB Basics
+Quick Gdb Guide
+Debugging with GDB: Memory
+tools - How to handle stripped binaries with GDB? No source, no symbols and GDB only shows addresses? - Reverse Engineering Stack Exchange
+cs01/gdbgui: Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.
+debuggers - Decent GUI for GDB - Reverse Engineering Stack Exchange
+How to highlight and color gdb (and other alternatives)
+snare/voltron: A hacky debugger UI for hackers
+PEDA Slides
+Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers: GEF
+GNU Debugger Tutorial
+Guide to Faster, Less Frustrating Debugging
+GDB Primer
+Georgia Tech - Debugging with GDB
+Using GDB to Develop Exploits - A Basic Run Through
+Home - GEF - GDB Enhanced Features documentation
+gdb-refcard.pdf
+GDB Cheat Sheet
+Art of Debugging | No Starch Press
+Stanford-GDB-Slides.pdf
+CMU-GDB-Slides
+Debugging C/C++ Programs Remotely Using Visual Studio Code and gdbserver
+Awesome GDB
+Debugging with GDB - Set Breaks
+x64dbg - Debugger
+x64dbg
+Plugins · x64dbg/x64dbg Wiki · GitHub
+GitHub - x64dbg/x64dbg: An open-source x64/x32 debugger for windows.
+x64dbg - Tuts 4 You
+utkonos/lst2x64dbg: Extract labels from IDA .lst or Ghidra .csv file and export x64dbg database.
+Windbg - Windows Debugger
+New WinDbg available in preview! – Debugging Tools for Windows
+Introduction to Windbg and debugging windows - YouTube
+Immunity Debugger
+Immunity Debugger Downloads / Downloads - Tuts 4 You
+OllyDbg - Debugger
+OllyDbg 2.0
+OllyDbg v1.10
+danh3707/OllyDbgV1.10-plugins-and-Hlpfile: OllyDbg v1.10 with plugins and help32 file along with windows 10 help32 fix. With a dark color scheme.
+rr: lightweight recording & deterministic debugging
+Debuggex: Online visual regex tester. JavaScript, Python, and PCRE.
+Introduction to Debuggers
+Debugging with PTrace
+Anti-Debug Stuff
+Anti Debugging Protection Techniques With Examples
+Tools (Disassemblers/Decompilers/Hex Editors)
+GHIDRA - Static Analysis - Disassembler/Decompiler
+Ghidra Plugins
+felberj/gotools: Plugin for Ghidra to assist reversing Golang binaries
+SVD-Loader for Ghidra: Simplifying bare-metal ARM reverse engineering :: Security for the embedded and connected world
+Using OOAnalyzer to Reverse Engineer Object Oriented Code with Ghidra
+OOAnalyzer: Binary Static Analysis of Object Oriented Code
+GitHub - NationalSecurityAgency/ghidra
+Ghidra
+Ghidra
+Ghidra Cheat Sheet
+Ghidra Installation Guide
+Frequently asked questions · NationalSecurityAgency/ghidra Wiki · GitHub
+First Look at Ghidra (NSA Reverse Engineering Tool) - YouTube
+Reversing Android Bluetooth Chipsets with Ghidra - YouTube
+Ghidra: A quick overview for the curious | Shortjump!
+Ghidra Plugin Development for Vulnerability Research - Part-1 — Somerset Recon
+decompiler: Decompiler Analysis Engine
+Ghidra RSA Presentation
+Ghidra Ninja - YouTube
+Using NSA's Ghidra to make a keyboard backlight match in-game graphics of SuperHexagon : programming
+INFILTRATE 2019 - Three Heads are Better Than One: Mastering Ghidra
+Working With Ghidra's P-Code To Identify Vulnerable Function Calls - River Loop Security
+Online Courses – Ghidra
+A Vagrantfile for provisioning a VM with Ghidra and X11 forwarding enabled.
+SLEIGH
+decompiler: SLEIGH
+SLEIGH
+IDA Pro/HexRays - Static Analysis - Disassembler/Decompiler
+The Basics of IDA Pro - InfoSec Resources
+Reversing Basics - A Practical Approach Using IDA Pro | www.SecurityXploded.com
+ida pro tutorial for beginners - Google Search
+Basic Dynamic Analysis with IDA Pro and WinDBG - YouTube
+GitHub - patois/IDACyber: Data Visualization Plugin for IDA Pro
+Real-world Decompilation with IDA Pro - Part 1: Introduction - YouTube
+Real-world Decompilation with IDA Pro - Part 2: String Handling - YouTube
+IDA series, part 2: debugging a .NET executable
+IDA series, part 1: the Hex-Rays decompiler
+Marco Ramilli's Blog: How to Patch Binary with IDA Pro
+daniel_plohmann / simpliFiRE.IDAscope — Bitbucket
+GitHub - onethawt/idaplugins-list: A list of IDA Plugins
+GitHub - Maktm/FLIRTDB: A community driven collection of IDA FLIRT signature files
+FLARE IDA Pro Script Series: Simplifying Graphs in IDA « FLARE IDA Pro Script Series: Simplifying Graphs in IDA | FireEye Inc
+Binary Cracking & Byte Patching with IDA Pro - CodeProject
+Free IDA Pro Reverse Code Engineering and Binary Auditing Training Material for University Lectures
+Using Z3 with IDA to simplify arithmetic operations in functions | Shortjump!
+Attacking Network Protocols: A Hacker's Guide to Capture, Analysis, and ... - James Forshaw - Google Books
+TiGa's Video Tutorial Site
+RE for Beginners | Short Intro to IDA
+IDA Shortcuts [PDF]
+IDA Pro Malware Analysis Tips - YouTube
+TiGa Tuts - IDA Pro Disassembler & Debugger - Tuts 4 You
+Binary Ninja - Static Analysis - Disassembler/Decompiler
+Reverse Engineering with Binary Ninja and gdb a key checking algorithm - TUMCTF 2016 Zwiebel part 1 - YouTube
+GitHub - ColdHeat/liil: Linear IL view for Binary Ninja
+Binary Ninja
+2000 cuts with Binary Ninja | Trail of Bits Blog
+binary ninja Defcon 2017
+De-obfuscating Jump Chains with Binary Ninja - This is Security :: by Stormshield
+Radare2 - Static Analysis - Disassembler/Decompiler
+dukebarman/awesome-radare2: A curated list of awesome projects, articles and the other materials powered by Radare2
+GitHub - radare/radare2: unix-like reverse engineering framework and commandline tools
+A journey into Radare 2 – Part 2: Exploitation – Megabeets
+Scripting radare2 with python for dynamic analysis - TUMCTF 2016 Zwiebel part 2 - YouTube
+Radare2: An Introduction to Visual Mode - MOVEAX.ME
+Reverse Engineering Using Radare2 – Jacob Pimental – Medium
+Reverse Engineering With Radare2 — Part 2 – Jacob Pimental – Medium
+Crackme0x04 Dissected with Radare2 - MOVEAX.ME
+Crackme0x03 Dissected with Radare2 - MOVEAX.ME
+Crackme0x05 Dissected with Radare2 - MOVEAX.ME
+Crackme0x06 Dissected with Radare2 - MOVEAX.ME
+Crackme0x07 Dissected with Radare2 - MOVEAX.ME
+Crackme0x08 Dissected with Radare2 - MOVEAX.ME
+Debugging Using Radare2… and Windows! – Jacob Pimental – Medium
+Crackme0x09 Dissected with Radare2 - MOVEAX.ME
+Reversing a Self-Modifying Binary with radare2 – Megabeets
+Reverse engineering a Gameboy ROM with radare2 – Megabeets
+BombLab Dissected with Radare2 - MOVEAX.ME
+Dr Von Noizeman's Nuclear Bomb defused with Radare2 - MOVEAX.ME
+Crackme0x01 Dissected with Radare2 - MOVEAX.ME
+Conditions and loops – Max Kersten
+radare2 python scripting - r2wiki
+radare2-extras/r2snowman at master · radare/radare2-extras
+radareorg/radeco: radare decompiler tool based on radeco-lib
+radareorg/cutter: A Qt and C++ GUI for radare2 reverse engineering framework
+A journey into Radare 2 – Part 1: Simple crackme – Megabeets
+Hopper - Linux and MacOS Disassembler/Decompiler
+Hopper - Linux and MacOS Disassembler
+Hex Editors
+010 Editor - Professional Text/Hex Editor with Binary Templates
+List of Hex Editors
+Angr - static and dynamic symbolic ("concolic") binary analysis
+angr · GitHub
+angr, a binary analysis framework
+dnSpy (RE tool for .NET)
+dnSpy: .NET decompiler, debugger and assembly editor
+Compiler Explorer - Programming Language to Assembler Converter
+x86 Disassembly/Disassemblers and Decompilers - Wikibooks, open books for an open world
+Veles - Visual Binary Analysis Tool
+Massive List Of Reverse-Engineering Tools
+Programming Z3
+Assembly Language Stuff
+Intel x86/64
+Open Security Training
+Open Security Training - Intro to X86
+Open Security Training - Intro to X86-64
+Open Security Training - Intermediate X86
+WORTH READING - x86 Disassembly.pdf
+x86 Assembly - YouTube - YouTube
+Breaking the x86 Instruction Set - YouTube
+A Crash Course in x86 Assembly for Reverse Engineers
+PC Assembly Language Book
+gcc x86 Assembly
+x86 Assembly - Wikibooks, open books for an open world
+x86 Disassembly - Wikibooks, open books for an open world
+Assembly x86 Emulator
+xorpd | xchg rax,rax
+jasmin download | SourceForge.net
+Assembly Language Step-by-Step Third Edition: Jeff Duntemann: 8601400126363: Amazon.com: Books
+Recommended - PC Assembly Book
+Assembly Language for x86 Processors (7th Edition): 9780133769401: Computer Science Books @ Amazon.com
+gurugio/book_assembly_8086
+ARM
+Writing ARM Assembly (Part 1) | Azeria Labs
+ARM 32-Bit Assembly Basics Cheat Sheet (18" x 24")
+Azeria Arm Exploit Lab Guide
+Azeria Arm Exploit Slides
+Online Arm Assembler by Azeria Labs
+MIPS
+Ring Ø Labs: The Wonderful World of MIPS
+When and how to use an assembler. Assembly programming basics.
+Assembly Programming Exercises
+Intro Assembly Resources
+Calling Conventions
+Good Resources
+Stack frame layout on x86-64 - Eli Bendersky's website
+WORTH READING - x86 Disassembly.pdf
+C Function Call Conventions, UMBC CMSC 313, Spring 2002
+Calling Conventions
+x86 In-Depth: CDECL Calling Convention Complete Tutorial - BONUS video - YouTube
+What are the calling conventions for UNIX & Linux system calls on i386 and x86-64 - Stack Overflow
+How Functions Work
+Calling conventions for different C++ compilers and OS
+File Format/Protocol Stuff
+File Formats
+Executable and Linkable Format 101. Part 2: Symbols - Intezer
+Executable and Linkable Format 101 - Part 1 Sections and Segments - Intezer
+Introduction to the ELF Format : The ELF Header (Part I)
+The 101 of ELF files on Linux: Understanding and Analysis - Linux Audit
+ELF Stuff
+ELF Walkthrough
+r0hi7/BinExp: Linux Binary Exploitation
+GitHub - 0xM3R/cgPwn: A lightweight VM for hardware hacking, RE (fuzzing, symEx, exploiting etc) and wargaming tasks
+BinExp/README.md at master · r0hi7/BinExp
+BinExp/README.md at master · r0hi7/BinExp
+Anatomy of a Program in Memory | Many But Finite
+linux - How does ELF file format defines the stack? - Stack Overflow
+ELF Tools
+Network Protocols – Programmer's Compendium
+Sector 876: Backdooring PE Files - Part 1
+Data Structures
+Automatic Reverse Engineering of Data Structures from Binary Execution [PDF]
+Digging For Data Structures [PDF]
+TIE: Principled Reverse Engineering of Types in Binary Programs [PDF]
+MemPick: High-Level Data Structure Detection in C/C++ Binaries [PDF]
+Howard: a dynamic excavator for reverse engineering data structures [PDF]
+Windows Stuff
+Windows API Index (Windows)
+.NET Reverse Enginering - Part 1 – CodePool – Programming and a bit more
+Getting Started with Windows Debugging - Windows 10 hardware dev
+WinDbg
+Debug Universal Drivers - Step by Step Lab (Echo Kernel-Mode) - Windows 10 hardware dev
+Exploring Windows virtual memory management
+An In-Depth Look into the Win32 Portable Executable File Format - Part 1 - DelphiBasics
+An In-Depth Look into the Win32 Portable Executable File Format - Part 2 - DelphiBasics
+Visual Studio Documentation | Microsoft Docs
+An Introduction to Windows Kernel Debugging | Endgame
+ReactOS (open source Windows remake)
+Vergilius Project | Home
+Terminus Project
+CVE-2019-8372: Local Privilege Elevation in LG Kernel Driver - @Jackson_T
+Linux OS Stuff
+Searchable Linux Syscall Table for x86 and x86_64 | PyTux
+Mobile Phones
+iOS
+ivRodriguezCA/RE-iOS-Apps: A completely free, open source and online course about Reverse Engineering iOS Applications.
+Apple/MacOS/iOS Tools
+Malware Analysis
+VM's and Environments for Malware Analysis
+Apple (MacOS)
+How to Install macOS High Sierra 10.13.6 on VirtualBox on Windows - Techsviewer
+Malware Unicorn Environment VM's
+SIFT Workstation Download
+Creating a Simple Free Malware Analysis Environment - MalwareTech
+Creating the Ultimate Tor Virtual Network - MalwareTech
+Malware Sample Sources for Researchers
+Official Documentation — Viper 2.0-dev documentation
+phoenix: Cuckoo Sandbox is an automated dynamic malware analysis system
+Cuckoo Sandbox - Automated Malware Analysis
+Intro Courses for Malware Analysis
+RPISEC - Malware Analysis 2013
+RPISEC - Malware Analysis 2015
+Malware Unicorn 101
+Malware Unicorn 102
+Intro to RE/Malware Analysis
+RPISEC INTROSEC
+Open Security Training - Reverse Engineering Malware
+How to start RE/malware analysis? | hasherezade's 1001 nights
+Intro to Malware Analysis
+CNIT 126: Practical Malware Analysis -- Sam Bowne
+MalwareDynamicAnalysis
+malwareunicorn.org
+UMBC CMSC 491/691 Malware Analysis
+Condensed Crash Course on Malware Analysis Notes
+The Beginner Malware Analysis Course + VirusBay Access
+Tools for Malware Analysis
+Free Automated Malware Analysis Service - powered by Falcon Sandbox
+REMnux: A free Linux Toolkit for Reverse-Engineering and Analyzing Malware
+ProcDump - Windows Sysinternals | Microsoft Docs
+Overview - Process Hacker
+PE Tools
+Dependency Walker (depends.exe) Home Page
+PEview
+Resource Hacker
+Automated Malware Analysis - Joe Sandbox Cloud Basic
+GitHub - TheHive-Project/Cortex: Cortex: a Powerful Observable Analysis and Active Response Engine
+Books
+Practical Malware Analysis: A Hands-On Guide to Dissecting Malicious Software
+Malware Analyst's Cookbook and DVD: Tools and Techniques for Fighting Malicious Code
+Videos to learn from
+Malware Analysis - A Way to Learn Anti-Reversing Tricks - YouTube
+Malware Theory - Basic Structure of PE Files - YouTube
+An Introduction to Dumping Malware with Process Dump - YouTube
+Colin Hardy - Lots of Malware Analysis Stuff
+IDA Pro Tutorial - Reverse Engineering Dynamic Malware Imports - YouTube
+Structs and Stuff | Reverse Engineering C++ Malware With IDA Pro - YouTube
+Challenges
+Beginner Malware Reversing Challenges - MalwareTech
+Encryption in Malware
+Encryption 101: a malware analyst's primer - Malwarebytes Labs | Malwarebytes Labs
+Cheatsheets and Tips
+SANS Malware Tips
+malwaretech Cheatsheet.rtf
+GitHub - corkami/docs: documentations, slides decks...
+corkami/pics · GitHub
+PE102 | corkami/pics
+Dr. Fu's Blog: Malware Analysis Tutorial 8: PE Header and Export Table
+MalwareTech
+MalwareTech - Guides to Reversing Malware
+MalwareTechBlog - Beginner Reverse Engineering - Twitch
+Malware Samples
+Where can I, as an individual, get malware samples to analyze? - Reverse Engineering Stack Exchange
+ytisf/theZoo: A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public.
+VirusShare.com
+InQuest/malware-samples: A collection of malware samples and relevant dissection information, most probably referenced from http://blog.inquest.net
+Indicators Of Compromise Searching
+Malware Domain List
+Malware-Traffic-Analysis.net
+AutoFocus Intelligence Summary
+A curated list of malware analysis tools and resources.
+Open ADB Ports Being Exploited to Spread Possible Satori Variant in Android Devices - TrendLabs Security Intelligence Blog
+Stuxnet Decompiled
+Interactive Online Malware Analysis Sandbox - ANY.RUN
+ANY.RUN - Interactive Online Malware Sandbox
+Anti-Debugging Techniques
+Windows
+Anti-debugging Techniques Cheat Sheet - 0xAA - Random notes on security
+Windows Anti-Debug Reference | Symantec Connect Community
+Macro Malware Analysis
+rshipp/awesome-malware-analysis: A curated list of awesome malware analysis tools and resources.
+Software Cracking
+CrackWatch
+Daily Releases (February 14, 2018) : CrackWatch
+CS.RIN.RU - Steam Underground Community • Index page
+[Crack Watch] Beginners Guide to Crack Watch : CrackWatch
+How the Dreamcast copy protection was defeated
+Game Hacking
+PwnAdventure
+PwnAdventure3 - Game Open-World MMORPG Intentionally Vulnerable To Hacks - KitPloit - PenTest Tools for your Security Arsenal ☣
+PwnAdventure3/re-mmorpg-troopers18.pdf at master · beaujeant/PwnAdventure3 · GitHub
+You Have to Hack This Massively Multiplayer Game to Beat It | WIRED
+GitHub - Vector35/PwnAdventureZ: NES zombie survival game made to be hacked
+Pwn Adventure 3: Pwnie Island
+Intro to Game Hacking
+Getting Started With Game Hacking: The Definitive Guide (Part 1)
+[Tutorial] Getting Started With Programming And Gamehacking
+[Tutorial] Make your own dll hack | [1] | Memory patching & Editing
+[Tutorial] CodeCave with OllyDbg
+[Information] Useful C++/Gamehacking/Programming for beginners threads - Mega thread
+Game Hacking: WinXP Minesweeper - Reverse Engineering - 0x00sec
+Finding and exploiting hidden features of Animal Crossing’s NES emulator | jamchamb.github.io
+/r/REGames
+Guided Hacking - YouTube
+stephen chapman - YouTube
+Crypto
+Basics of Cryptography Part I: RSA Encryption and Decryption
+jcryptool/doc: JCrypTool Documentation and Resources
+Base64 Decode and Encode - Online
+The Black Chamber - Chamber Guide
+PyCrypto API Documentation
+Statically Rewriting x86 Binaries Without Heuristics (Paper and GitHub Sources) - ReverseEngineering
+Rewriting Functions in Compiled Binaries | Trail of Bits Blog
+GitHub - trailofbits/mcsema: Framework for lifting x86, amd64, and aarch64 program binaries to LLVM bitcode
+GitHub - trailofbits/fennec: Rewriting functions in compiled binaries
+Comp Eng/Hardware/Embedded Systems Hacking
+Books and Research Papers
+Hacking the Xbox: An Introduction to Reverse Engineering
+PCB-RE: Tools & Techniques: Mr Keng Tiong Ng: 9781979331388: Amazon.com: Books
+Software-based Microarchitectural Attacks
+Project Zero: Exploiting the DRAM rowhammer bug to gain kernel privileges
+Precursor to Rowhammer.pdf
+Courses
+Hardware Security | Coursera
+RPI - Hardware Reverse Engineering
+nand2tetris
+Simple CPU v1
+GT - Embedded Systems
+Hacking USB on the Cheap with USB-Tools
+Computer Engineering Stuff
+Build an 8-bit computer | Ben Eater
+8-bit computer update - YouTube
+Learning FPGA And Verilog A Beginner’s Guide Part 1 – Introduction | Numato Lab Help Center
+Mojo V3 | Alchitry
+Verilog | Alchitry
+Game for Hardware Design - Robot Odyssey Rewired
+Icarus Verilog
+GTKWave
+Reddit comment about FPGA
+What Every Programmer Should Know About Memory
+Videos to learn from
+Introduction to Firmware Reversing - YouTube
+34C3 - Reverse engineering FPGAs - YouTube
+Reverse engineering a simple CMOS chip - YouTube
+Hackaday Supercon - Ken Shirriff : Studying Silicon: Reverse Engineering Integrated Circuits - YouTube
+Hardware Hacking on Vimeo
+How safe is a Wifi Cloud Hub Router (from hackers)? - YouTube
+Secrets of the Nintendo CIC Chip - Early Cartridge Anti-Piracy | MVG - YouTube
+Tools to Use
+The IoT Hacker's Toolkit · System Overlord
+Analog Discovery 2 - National Instruments
+Syonyk's Project Blog: DSO138 Scope, Acrylic Housing Assembly, and USB Power
+RFID Thief v2.0 - scund00r
+newaetech/chipwhisperer: ChipWhisperer - the complete open-source toolchain for side-channel power analysis and glitching attacks
+ChipWhisperer® – NewAE Technology Inc.
+X-Ray Tool
+dediprog - chip dumping
+Beagle USB 12 Protocol Analyzer - Total Phase
+BeagleBoard.org - black
+JTAG
+JTAG Explained (finally!): Why "IoT" Makers, Software Security Folks, and Device Manufacturers Should Care - Senrio
+Lifting and Reversing Firmware
+Reverse Engineering Firmware: Linksys WAG120N – /dev/ttyS0
+5-Min Tutorial: Lifting Firmware with the Bus Pirate – B-sides
+postmarketOS Low-Level: Tiny Steps Towards Liberating Bootloaders and Cellular Modem Firmware of MediaTek Phones
+Hacking Microcontroller Firmware through a USB | Securelist
+Breaking Bits
+https://media.defcon.org/DEF CON 27/DEF CON 27 presentations/DEFCON-27-Christopher-Roberts-Firmware-Slap.pdf
+GitHub - praetorian-code/DVRF: The Damn Vulnerable Router Firmware Project
+Getting Started with Damn Vulnerable Router Firmware (DVRF) v0.1
+GitHub - firmadyne/firmadyne: Platform for emulation and dynamic analysis of Linux-based firmware
+GitHub - hugsy/gdb-static: Public repository of static GDB and GDBServer
+gdbserver remote debugging - Google Search
+gdb - Cross debugging for ARM / MIPS ELF with QEMU/toolchain - Reverse Engineering Stack Exchange
+Reversing Integrated Circuits
+ULN2003 - practical example of «reading» microchip schematic : ZeptoBars
+How to crack open some computer chips and take your own die shots - ExtremeTech
+Universal asynchronous receiver-transmitter - Wikipedia
+Video Game Console Reversing
+fail0verflow :: ShofEL2, a Tegra X1 and Nintendo Switch exploit
+fail0verflow :: PS4 Aux Hax 1: Intro & Aeolia
+fail0verflow :: PS4 Aux Hax 2: Syscon
+fail0verflow :: PS4 Aux Hax 3: Dualshock4
+Hacking the PS4, part 1 - Introduction to PS4's security, and userland ROP
+Making a GameCube memory card editor with Raspberry Pi | jamchamb.github.io
+The weird and wonderful CIC
+Reversing IoT Devices
+Embedded Hardware Hacking 101 – The Belkin WeMo Link « Threat Research Blog | FireEye Inc
+Reverse Engineering My Home Security System: Decompiling Firmware Updates
+Practical Reverse Engineering Part 1 - Hunting for Debug Ports · Hack The World
+Rooting a Logitech Harmony Hub: Improving Security in Today's IoT World « Rooting a Logitech Harmony Hub: Improving Security in Today's IoT World | FireEye Inc
+Heart of Darkness - exploring the uncharted backwaters of HID iCLASS RFID reader security
+Bus Pirate - DP
+Reversing Protocols
+Syonyk's Project Blog: Reverse Engineering the TEC-06 Serial Protocol
+Hackaday | Fresh hacks every day
+Hardware Hacking for Software People | Don't Stuff Beans Up Your Nose
+Methodologies For Hacking Embedded Security Appliances
+bunnie's burrow
+bunnie's blog
+Changing your MAC address in Windows - inc0x0
+O.MG Cable
+Solder Skills Challenge - SMD Challenge from MakersBox on Tindie
+uart protocol - Google Search
+i2c protocol - Google Search
+GPIO - Google Search
+Application-Specific Integrated Circuits (ASICs) - Google Search
+Field Programmable Gate Arrays (FPGAs) - Google Search
+Oscilloscope Graphics Editor
+Hack Correlation
+Cheap IoT Hacking? | SOHOpelesslyBroken
+NAND Flash Data Recovery Cookbook
+Vulnerability Research and Exploitation
+Good Courses/Challenges/Learning/Books
+Sites/Blog Posts To Learn From
+Project Zero
+Latest hacking topics - 0x00sec
+Zero Day Initiative — VMware Exploitation through Uninitialized Buffers
+In-Memory-Only ELF Execution (Without tmpfs) Mrs Quis Will Think of a Better Title
+High-Level Approaches for Finding Vulnerabilities - @Jackson_T
+How do I get started in vulnerability research? : ReverseEngineering
+A bunch of Linux kernel exploitation resources
+Project Zero - Monorail
+Travel blog of an evil transgirl: Reversing ALPC: Where are your windows bugs and sandbox escapes?
+Weaponization of a JavaScriptCore Vulnerability | Ret2 Systems Blog
+Vulnerability Discovery Against Apple Safari | Ret2 Systems Blog
+Security Bulletins | Microsoft Docs
+Lexfo's security blog
+Null Byte Poisoning ~ The Magic Byte - Exploit Development - 0x00sec - The Home of the Hacker
+Latest Exploit Development topics - 0x00sec - The Home of the Hacker
+Google Project Zero
+Cheat sheet - How Stack Pivots are used in Modern Exploits : ReverseEngineering
+Extracting a 19 Year Old Code Execution from WinRAR - Check Point Research
+Zero Day Initiative — The Story of Two Winning Pwn2Own JIT Vulnerabilities in Mozilla Firefox
+Phrack - Javascript Jit Type Confusion
+Phrack - Javascript Engine Basics
+Zero Day Initiative — CVE-2019-0708: A Comprehensive Analysis of a Remote Desktop Services Vulnerability
+Zoom Zero Day: 4+ Million Webcams & maybe an RCE? Just get them to visit your website!
+Linux Heap TCache Poisoning
+SANS Institute
+Hackers Hut: Local root exploits
+Heartbleed - Wikipedia
+Troy Hunt: Everything you need to know about the Heartbleed SSL bug
+Project Zero: The Fully Remote Attack Surface of the iPhone
+Don't Follow The Masses: Bug Hunting in JavaScript Engines | Bluefrostsecurity
+Escaping the Chrome Sandbox via an IndexedDB Race Condition | Bluefrostsecurity
+Project Zero: Down the Rabbit-Hole...
+Azeria | Write up of iOS exploit - Walking through the underlying exploit development process
+Vulnerability Reports || Cisco Talos Intelligence Group - Comprehensive Threat Intelligence
+Sudoers Bug | Oss-security - Sudo: CVE-2019-14287
+oss-security mailing list
+CVE security vulnerability database. Security vulnerabilities, exploits, references and more
+Books
+The Art of Software Security Assessment: Identifying and Preventing Software Vulnerabilities
+Hacking: The Art of Exploitation, 2nd Edition
+Amazon.com: Windows Internals, Part 1: System architecture, processes, threads, memory management, and more (7th Edition)
+Amazon.com: Windows Internals, Part 2 (6th Edition) (Developer Reference)
+Books to Learn Computer Security
+Courses
+RPISEC - Modern Binary Exploitation
+Fall 2020 - Georgia Tech Information Security Lab Course
+Modern Binary Exploitation - Spring 2015
+RPISEC INTROSEC - Command Line
+RPISEC INTROSEC - Stegonography
+CNIT 127: Exploit Development -- Sam Bowne
+Violent Python and Exploit Development
+Exploits1
+SEED Project
+Basic General Vulnerability Course
+NYU Tandon VR and Pen Test Course
+Good Intro to VR - George Mason Security Lab - Google Drive
+Videos to learn from
+LiveOverflow - Binary Hacking (exploit exercises)
+How To Hack: Episode 1 - Trampoline Stack Smash - YouTube
+Buffer overflow on a modern system impossible? stack0: part 1 - bin 0x21 - YouTube
+Wargames
+Exploit-Exercises: Protostar (v2) ~ VulnHub
+Exploit Education :: Andrew Griffiths' Exploit Education
+OverTheWire: Narnia - Basic Exploitation
+OverTheWire: Behemoth - Common Coding Mistakes
+OverTheWire: Utumno - Intermediate Difficulty Wargame
+OverTheWire: Maze - Exploitation/Programming/RE Wargame
+OverTheWire: Vortex
+OverTheWire: Semtex - Exploitation and RE
+io.netgarage.org
+SmashTheStack Wargaming Network
+CSAW 365
+Binary Exploitation | pwnable.kr
+CVEs to Review
+Analysis of a Chrome Zero Day: CVE-2019-5786 | McAfee Blogs
+One more Steam Windows Client Local Privilege Escalation 0day
+Analysis of CVE-2019-0708 (BlueKeep) - MalwareTech
+sp0re/Nhttpd-exploits - Sp0re's Git
+Chrome Bugs
+Issues - chromium - An open-source project to help move the web forward. - Monorail
+Fuzzing in Chromium
+google/clusterfuzz: Scalable fuzzing infrastructure.
+v8 exploit | Sakuraのblog
+External Training
+Trainings | RET2 Systems
+Training :: Exodus Intelligence
+Android Internals & Others
+Tactical Network Solutions | IoT Security Training
+Windows Internals & Rootkits | Graceful Bits
+h4cker/exploit_development at master · The-Art-of-Hacking/h4cker
+Intro Exploit Dev Resources
+Vulncode-DB
+Pwn Adventure 3: Pwnie Island
+Exploits Database by Offensive Security
+Eli Bendersky's website
+scwuaptx/HITCON-Training: For Linux binary Exploitation
+Exploit Development/Shellcoding Stuff
+Tools
+pwntools Documentation
+Installation — pwntools 3.12.0 documentation
+Exploit Development with AFL, PEDA and PwnTools
+GitHub - Gallopsled/pwntools: CTF framework and exploit development library
+Weaponization of Nessus Plugins
+merrychap/shellen: Interactive shellcoding environment to easily craft shellcodes
+0xdea/tactical-exploitation: Modern tactical exploitation toolkit.
+Payload Generation using SharpShooter – MDSec
+mdsecactivebreach/SharpShooter: Payload Generation Framework
+Art of Anti Detection 3 – Shellcode Alchemy – Pentest Blog
+Courses
+CNIT 127: Exploit Development -- Sam Bowne
+Offensive Computer Security 2014 - Lecture 02
+Linux Specific Tutorials
+Intermediate Level Linux Exploitation
+Intro Binary Hacking Course - LiveOverflow
+Open Security - Intro to Software Exploits for Linux
+Open Security - Intro to Software Exploits for Linux
+Linux (x86) Exploit Development Series – sploitF-U-N
+Windows Exploit Development Tutorials
+Fuzzy Security Tutorials
+ExploitDev: Part 1 - Intro to Exploit Development
+ExploitDev: Part 2 - Saved Return Pointer Overflowing
+ExploitDev: Part 3 - Structured Exception Handler (SEH)
+ExploitDev: Part 4 - Egg Hunters
+ExploitDev: Part 5 - Unicode
+ExploitDev: Part 6 - Win32 Shellcode
+ExploitDev: Part 7 - ROP
+ExploitDev: Part 8 - Heap Spraying
+ExploitDev: Part 9 - Heap Spray - Use After Free (UAF)
+ExploitDev: Part 10 - Kernal Exploitation - Stack Overflow
+ExploitDev: Part 11 - Kernel Exploitation - Write-What-Where
+ExploitDev: Part 12 - Kernel Exploitation - Null Pointer Dereference
+ExploitDev: Part 13 - Kernel Exploitation - Uninitialized Stack Variable
+ExploitDev: Part 14 - Kernel Exploitation - Integer Overflow
+ExploitDev: Part 15 - Kernel Exploitation - Use After Free (UAF)
+ExploitDev: Part 16 - Kernel Exploitation - Pool Overflow
+ExploitDev: Part 17 - Kernel Exploitation - GDI Bitmap Abuse
+ExploitDev: Part 18 - Kernel Exploitation - RS2 Bitmap Necromancy
+ExploitDev: Part 19 - Kernel Exploitation - Logic bugs in Razer rzpnk.sys
+A curated list of Windows Exploitation resources
+Introduction to Windows Kernel Driver Exploitation (Pt. 1)
+Starting with Windows Kernel Exploitation – part 1 – setting up the lab | hasherezade's 1001 nights
+Open Security Videos - Intro to Windows Exploits
+Open Security - Intro to Windows Exploits
+GitHub - smgorelik/Windows-RCE-exploits: The exploit samples database is a repository for RCE (remote code execution) exploits and Proof-of-Concepts for WINDOWS, the samples are uploaded for education purposes for red and blue teams.
+Shellcoding
+Books
+The Shellcoder's Handbook: Discovering and Exploiting Security Holes
+Shellcoding for Linux and Windows Tutorial
+How to write a (Linux x86) egg hunter shellcode | Adventures in the programming jungle
+Shellcode Injection - Dhaval Kapil
+Writing ARM Shellcode | Azeria Labs
+Linux Shellcoding (Part 1.0) - Exploit Development - 0x00sec - The Home of the Hacker
+M34_The_Art_of_Writing_Shellcode.pdf
+Phrack | how to turn any code into alphanumeric code
+Shellcode limitations - Wikipedia
+Phrack | Bypassing Unicode Translation That Adds Null Bytes
+How to Execute Shellcode - Wikipedia
+English Text Shellcode.pdf
+Shell-storm Mirror | A collection of shellcode, ripped straight from the shell-storm database. We host this just for easy access, since shell-storm cannot be reached within the Academy's Internet.
+0x2a0 Writing Shellcode
+Best books, tutorials and courses to learn about exploit development
+Ask HN: What's the prerequisite to become an exploit developer? | Hacker News
+A curated list of resources (books, tutorials, courses, tools and vulnerable applications) for learning about Exploit Development
+slimm609/checksec.sh: Checksec.sh
+Corelan Team - Exploit Writing Tutorials
+[Backdoor 101] Backdooring PE File by Adding New Section Header - Hack.Learn.Share
+The Beginners Guide to Codecaves - CodeProject
+Exploit Development Learning Roadmap : ExploitDev
+Buffer Overflow/Memory Corruption
+GOT/PLT Overwriting (Global Offset Table and Procedure Linkage Table)
+GOT and PLT for pwning. · System Overlord
+Memory Corruption 101 - NYU Poly 2011
+Exploit writing tutorial part 1 : Stack Based Overflows | Corelan Team
+Linux ExploitDev: Part 3 - Buffer Overflow
+0x7 Exploit Tutorial: Bad Character Analysis
+0x0 Exploit Tutorial: Buffer Overflow – Vanilla EIP Overwrite
+0×3 Exploit Tutorial: Buffer Overflow – SEH Bypass
+Binary Exploitation ELI5– Part 1 –Stack/Buffer Overflow/Ret2Libc
+Binary Exploitation ELI5 — Part 2 – Bypass Stack Mitigations
+Speedrun Hacking Buffer Overflow - speedrun-001 DC27 - YouTube
+Return Oriented Programming (ROP)
+ROPgadget
+ExploitDev: Part 7 - ROP
+ROP Emporium
+ropchain | @kvakil
+SROP | Signals, you say? - Exploit Development - 0x00sec - The Home of the Hacker
+Learn ROP through a short series of practical challenges : netsec
+ROPping to Victory
+Hacking the PS4, part 1 - Introduction to PS4's security, and userland ROP
+0vercl0k/rp: rp++ is a full-cpp written tool that aims to find ROP sequences in PE/Elf/Mach-O x86/x64 binaries. It is open-source and has been tested on several OS: Debian / Windows 8.1 / Mac OSX Lion (10.7.3). Moreover, it is x64 compatible and supports
+Notes/ret2libc.txt at master · Malformation/Notes
+libc - offset - 64-bit Linux stack smashing tutorial: Part 3
+ret2libc.pdf
+Binary Exploitation ELI5 — Part 3 – ROP/Heap Spray
+rop emporium - callme64
+Dive into ROP - a quick introduction to Return Oriented Programming
+Demo6A - Return-Oriented Programming Exploit with ROPgadget 64-bit Variant - YouTube
+Demo6 - Return-Oriented Programming Exploit with ROPgadget - YouTube
+Demo5 - Return-Into-Libc Exploit - YouTube
+h4cker/exploit_development at master · The-Art-of-Hacking/h4cker
+Buffer Overflow Practical Examples , ret2libc - protostar stack6 | 0xRick Owned Root !
+acama/xrop: Tool to generate ROP gadgets for ARM, AARCH64, x86, MIPS, PPC, RISCV, SH4 and SPARC
+Return Oriented Programming (ROP) Exploit Explained | Rapid7
+Intro to ROP: ROP Emporium — Split - I See Thieves - Medium
+A Simple ROP Exploit – /bin/sh via syscall | Failing Silently
+Format String Exploitation
+Introduction to format string exploits
+Linux ExploitDev: Part 2 - Format String Exploit
+Demo3A - Format String Vulnerability and Exploit Variant - YouTube
+Demo3 - Format String Vulnerability and Exploit - YouTube
+CNIT 127 Ch 4: Introduction to format string bugs - YouTube
+Format Strings Exploitation Tutorial
+Format string attack - OWASP
+Heap Exploitation
+Heap Exploitation · GitBook
+Windows Kernel Exploitation Tutorial Part 7: Uninitialized Heap Variable - rootkit
+sec18-heelan.pdf
+Recommended - shellphish/how2heap: A repository for learning various heap exploitation techniques.
+GitHub - DhavalKapil/heap-exploitation: This book on heap exploitation is a guide to understanding the internals of glibc's heap and various attacks possible on the heap structure. https://heap-exploitation.dhavalkapil.com/
+ExploitDev: Part 8 - Heap Spraying
+ExploitDev: Part 9 - Heap Spray - Use After Free (UAF)
+Linux ExploitDev: Part 4 - Use After Free (UAF)
+Binary Exploitation ELI5 — Part 3 – ROP/Heap Spray
+Demo8 - Heap Spray Example - YouTube
+CNIT 127 Ch 5: Introduction to heap overflows - YouTube
+Heap Exploitation Part 1: Understanding the Glibc Heap Implementation | Azeria Labs
+Heap Exploitation Part 2: Understanding the Glibc Heap Implementation | Azeria Labs
+xu:collision.pdf
+Heap Exploitation ~ Abusing Use-After-Free - Exploit Development - 0x00sec - The Home of the Hacker
+thread local caching in glibc malloc · Online tukan sanctuary
+Once Upon a free()
+Mathy Vanhoef, PhD: Understanding the Heap & Exploiting Heap Overflows
+dlmalloc: A Memory Allocator
+Understanding the Heap by Breaking it
+Glibc Adventures: The Forgotten Chunks | Context Information Security UK
+Bugtraq: The Malloc Maleficarum
+Phrack - Malloc Des-Maleficarum
+Phrack - w00w00 on heap overflows
+Phrack - vudu malloc tricks
+13.5 Heap Overflows :: Chapter 13. Application-Level Risks :: Network security assessment :: Networking :: eTutorials.org
+Understanding glibc malloc – sploitF-U-N
+The Heap: How do use-after-free exploits work? - bin 0x16 - YouTube
+Unsorted bin attack - CTF Wiki
+ctf/0ctf/pwn/babyheap at master · guyinatuxedo/ctf
+Glibc Heap Exploitation Basics : Introduction to ptmalloc2 internals (Part 1)
+Glibc Heap Exploitation Basics : ptmalloc2 internals (Part 2) - Fast Bins and First Fit Redirection
+children_tcache writeup and tcache overview - Eternal Stories
+Heap Exploit Development | Azeria Labs
+How a double-free bug in WhatsApp turns to RCE - Home
+Double Free · Heap Exploitation
+Understanding the Heap & Exploiting Heap Overflows
+10_lecture.pdf
+Fuzzing
+Finding and Understanding Bugs in C Compilers
+Stateful Runtime Model Checking for Multithreaded Programs
+Fuzzing with Code Fragments
+funfuzz/src/funfuzz/js/jsfunfuzz at master · MozillaSecurity/funfuzz · GitHub
+Csmith
+issre13.pdf
+The Art of Fuzzing – Slides and Demos | SEC Consult
+Automating Web Apps Input fuzzing via Burp Macros - SecureLayer7
+Fuzzing: Brute Force Vulnerability Discovery
+Fuzzing · isislab/Project-Ideas Wiki
+Generating Software Tests
+american fuzzy lop
+Scaling AFL to a 256 thread machine | Gamozo Labs Blog
+1803.01307.pdf
+secfigo/Awesome-Fuzzing: A curated list of fuzzing resources ( Books, courses - free and paid, videos, tools, tutorials and vulnerable applications to practice on ) for learning Fuzzing and initial phases of Exploit Development like root cause analysis.
+hellscape - 6 increasingly difficult buggy tool for testing fuzzer
+Structure-Aware Fuzzing with libFuzzer
+RUB-SysSec/nautilus: a grammar based feedback fuzzer
+NDSS19-Nautilus.pdf
+ClusterFuzz - ClusterFuzz
+TriforceAFL/limit_memory.sh at master · nccgroup/TriforceAFL · GitHub
+Implemented new approach for fuzzer synchronization · googleprojectzero/fuzzilli@5aeae9d · GitHub
+Impeding Fuzzing Audits of Binary Executables
+designing_new_operating_primitives_to_improve_fuzzing_performance_vt.pdf
+libFuzzer – a library for coverage-guided fuzz testing. — LLVM 10 documentation
+AFL-Qemu | fuzzing without source
+Good Fuzzing Talk from Talos
+Cisco-Talos/crashdog
+Cisco-Talos/covnavi
+Zoo AFL / Digital Security corporate blog / Habr
+Kernel Exploitation
+Linux Kernel CVEs | All CVEs
+(nearly) Complete Linux Loadable Kernel Modules
+Linux Kernel Exploitation: Earning Its Pwnie a Vuln at a Time
+Phrack - Attacking the Core: Kernel Exploitation
+Understanding the Linux Kernel, Third Edition - Amazon.com
+A Guide to Kernel Exploitation: Attacking the Core - Amazon.com
+Linux Device Drivers - Amazon
+FuzzySecurity | Windows ExploitDev: Part 19
+Defcon 27
+ASUS Drivers Elevation of Privilege Vulnerabilities | SecureAuth
+GIGABYTE Drivers Elevation of Privilege Vulnerabilities | SecureAuth
+Weaponizing vulnerable driver for privilege escalation— Gigabyte Edition!
+A Guide to Kernel Exploitation: Attacking the Core: Enrico Perla B.Sc. Computer Science University of Torino M.Sc. Computer Science Trinity College Dublin, Massimiliano Oldani: 9781597494861: Amazon.com: Books
+Bug Bounty Stuff
+Adobe Flash Exploitation, Then and Now: From CVE-2015-5119 to CVE-2018-4878 – MDSec
+Hackers Hut
+HackerOne: Vulnerability Coordination and Bug Bounty Platform
+GitHub - nashcontrol/bounty-monitor: Leverage certificate transparency live feed to monitor for newly issued subdomain certificates (last 90 days, configurable), for domains participating in bug bounty programs.
+How to Break Into Security, Miller Edition — Krebs on Security
+[lcamtuf.coredump.cx]
+Home — Rode0day
+Bug Bounty Toolkit – BugBountyHunting – Medium
+djadmin/awesome-bug-bounty: A comprehensive curated list of available Bug Bounty & Disclosure Programs and Write-ups.
+Another list of bug bounty write-ups
+How I could have stolen your photos from Google - my first 3 bug bounty writeups
+Mobile Devices
+Android Exploitation
+GitHub - jiayy/android_vuln_poc-exp: This project contains pocs and exploits for android vulneribilities
+Android Internals
+Android Internals: A Confectioner's Cookbook
+Android Internals
+AnSec2.0
+Android Internals
+Android-Excerpt
+M1Con CTF Write up
+YouTube
+codemetrix.net - Hacking Android apps with FRIDA I
+How to start Reverse Engineering on Android Application by Ankit Mishra - network, host, download | Peerlyst
+How to start Reverse Engineering on Android Application - Part 2 by Ankit Mishra - download, virtual machine, location | Peerlyst
+How to start Reverse Engineering on Android Application – Part 3 by Ankit Mishra - credentials, vulnerable, knowledge | Peerlyst
+ashishb/android-security-awesome: A collection of android security related resources
+Android Hacker's Handbook
+1942 - Android: Use-After-Free in Binder driver - project-zero - Monorail
+Tools for Mobile Exploitation
+iOS Pentesting Tools Part 3: Frida and Objection – allysonomalley.com
+GitHub - sensepost/objection: 📱 objection - runtime mobile exploration
+The Mobile Security Testing Guide (MSTG) is a comprehensive manual for mobile app security testing and reverse engineering.
+Mitigation Techniques and Bypasses
+Windows CFG
+Control Flow Guard - Windows applications | Microsoft Docs
+Exploring Control Flow Guard in Windows 10
+Windows 10 Exploit Protection system-level mitigation, Control flow guard (CFG), must be on.
+Binary Exploitation ELI5 — Part 2 – Bypass Stack Mitigations
+aslur/offensivecon-talk.pdf at master · blackzert/aslur · GitHub
+asia-18-Marco-return-to-csu-a-new-method-to-bypass-the-64-bit-Linux-ASLR-wp.pdf
+Exploit Mitigation Techniques - Stack Canaries - Exploit Development - 0x00sec - The Home of the Hacker
+Exploitation Mitigation Techniques · isislab/Project-Ideas Wiki
+Bypassing ASLR – Part I – sploitF-U-N
+Bypassing ASLR – Part II – sploitF-U-N
+Bypassing ASLR – Part III – sploitF-U-N
+Epilogues, Canaries, and Buffer Overflows | Many But Finite
+Car Hacking
+jaredthecoder/awesome-vehicle-security: 🚗 A curated list of resources for learning about vehicle security and car hacking.
+Bluetooth Hacking
+The Practical Guide to Hacking Bluetooth Low Energy
+Draft NIST SP 800-121 Rev. 2, Guide to Bluetooth Security
+Emulation
+Writing a simple x86 emulator with IDAPython | Shortjump!
+How to write an emulator (CHIP-8 interpreter) | Multigesture.net
+Arm Specific Stuff
+Smashing the ARM Stack: ARM Exploitation Part 1 — Mercked Security
+Rootkits
+Kernel Rootkits - Dino Zovi
+Phrack - Linux on-the-fly kernel patching without LKM
+Rootkit-based attacks and defenses - Rutgers University
+pwnable.tw - wargame site for hackers to test and expand their binary exploiting skills.
+CVE - Common Vulnerabilities and Exposures (CVE)
+Recreating exploits - Disk Pulse Enterprise 9.9.16 - Remote Buffer Overflow (SEH) - Zero Aptitude
+rowhammer + side channel via OS-supported memory deduplication to get arbitrary read+write using javascript in a browser
+[1902.05178] Spectre is here to stay: An analysis of side-channels and speculative execution
+Project Zero: 0day "In the Wild"
+How spending our Saturday hacking earned us 20k – intigriti – Medium
+Cryptography
+Books
+Introduction to Modern Cryptography
+Courses/Lectures
+GT - CS6260 - Applied Cryptography
+Applied Cryptography | Udacity
+Fuck RSA | Trail of Bits Blog
+Stanford Cryptography I | Coursera
+Stanford University | Applied Cryptography Group
+Stanford | Online Cryptography Course by Dan Boneh
+Stanford Cryptography II | Coursera
+Stanford CS255 Introduction to Cryptography
+Pen Testing/Red Team/OSINT
+Courses/Learning/Tutorials/Tips
+Courses
+UMD - Intro to Ethical Hacking
+Practice 5 - System Hacking with Examples - Ethical Hacking Course - en.gburu.net
+Module 6 - Hacking Webservers - Free Ethical Hacking Course - en.gburu.net
+Tactical Burp Suite | Professionally Evil Training
+Advanced Tactical Burp Suite | Professionally Evil Training
+THXAVET - secureideas military discount
+Zero to Hero Pentesting | Cybersecurity Training | The Cyber Mentor
+Videos To Learn From
+PowerShell for Penetration Testing: Nishang
+HackerSploit - YouTube
+Books
+Gray Hat Hacking: The Ethical Hacker's Handbook, Fifth Edition
+Kali Stuff
+Metasploit and Armitage
+Armitage - Metasploit Unleashed
+Armitage | Penetration Testing Tools
+Step by step Metasploit walkthrough
+How to create metasploitable 3
+GitHub - rapid7/metasploitable3: Metasploitable3 is a VM that is built from the ground up with a large amount of security vulnerabilities.
+How to setup Metasploitable 3 on Windows 10 - Hacking Tutorials
+Metasploitable 2 Exploitability Guide
+Home · rapid7/metasploitable3 Wiki · GitHub
+Introduction-to-Metasploit.pdf
+Metasploit Unleashed - Free Online Ethical Hacking Course
+Kali Training Course
+Hack The Box
+Hack the Box Challenge: Tally Walkthrough
+Hack The Box :: Penetration Testing Labs
+IppSec - YouTube
+GitHub - Hackplayers/hackthebox-writeups: Writeups for HacktheBox 'boot2root' machines
+Labs
+Virtual Hacking Labs | IT Security Training Labs & Courses
+[PentesterLab] Learn Web Penetration Testing: The Right Way
+Vulnerable VM's and Wargames
+Vulnerable By Design ~ VulnHub
+GitHub - cliffe/SecGen: Create randomly insecure VMs
+Vulnerable Web Apps - Home
+Hacker101 CTF
+Methodology/Standards
+Red Teaming and Pentesting Tips | synack.blog
+Pen Testing Standard (READ FOR STUDYING)
+Penetration Testing Methodology - 0DAYsecurity.com
+Cyber Kill Chain® | Lockheed Martin
+Shared thoughts after 6+ years in Pentesting - Inspiration - 0x00sec - The Home of the Hacker
+Where to start - 1st Line to Pen Testing : netsecstudents
+Learning The Ropes 101 Posts
+So You Want To Be a Pentester? - Jack Hacks
+Introduction to Pen Testing
+wtsxDev/Penetration-Testing: List of awesome penetration testing resources, tools and other shiny things
+125 Hacking Tools For Penetration Testing in 2019 - CyberX
+Web Security Academy
+Interview questions for red team/pentest candidates
+Other Useful Posts/Blogs/Sites
+Hack Back! A DIY Guide - Pastebin.com
+Pen-Testing Cheat Sheets
+ATT&CK™ Navigator
+Most Important Penetration Testing Cheat Sheet Linux Machine
+SANS Penetration Testing Cheat Sheet: PowerShell
+Cheat sheet and notes inspired by the book RTFM - Red Team Field Manual
+Techniques: Enterprise - MITRE ATT&CK
+OSCP and OSCE Specific Stuff
+Recommended for OSCP
+OSCP Goldmine
+Prep guide for Offsec’s PWK – Tulpa Security
+tulpa-pwk-prep-guide1.pdf
+offsec_pdfs: your offsec knowledge
+abatchy's blog | How to prepare for PWK/OSCP, a noob-friendly guide
+Offensive Security Training and Professional Services
+Offensive Security Certified Professional (OSCP) Study Guide Links & Material | Computer Security.org - CyberSecurity News, Information, Education, Certifications, Vulnerabilities and Guides
+Offensive Security – Godlike Security
+Free Advanced Penetration Testing Training Class from Cybrary
+Next Step After OSCP/OSCE? : netsecstudents
+PWK Syllabus Scheduling Question For OSCP Holders : netsecstudents
+Advice on Windows pentesting methodology (OSCP) : HowToHack
+A Detailed Guide on OSCP Preparation - From Newbie to OSCP - Checkmate
+xMilkPowderx/OSCP: OSCP cheet sheet
+x89k - OSCP survival guide
+Cheatsheet-God: Penetration Testing
+Hakluke’s Ultimate OSCP Guide: Part 3 — Practical hacking tips and tricks
+Offensive Security's Guide To Alpha
+Open Broadcaster Software | OBS
+Recommended for OSCE
+Exploit Writing Tutorials | Corelan Team - Part 2
+Corelan Exploit Development Training
+0x5 Course Review: Cracking The Perimeter (OSCE)
+Cracking the Perimeter (CTP) + Offensive Security Certified Expert (OSCE)
+Course Review: Offensive Security AWE (Advanced Windows Exploitation) - EH-Net Online Mag
+abatchy's blog: OSCE Study Plan
+My OSCE Review - The Coffeegist
+abatchy's blog | Posts Tagged “OSCE Prep”
+Peoples Experiences of OSCP
+OSCP Review
+31 days of OSCP Experience - ScriptDotSh
+The OSCP: A Process Focused Review – Occult Sec
+www.techexams.net/forums/security-certifications/120656-osce-jollyfrogs-tale.html
+Zero to OSCP in 292 Days... or How I Accidentally the Whole Thing - Part 2
+Check out my review of the OSCP!! Comes with recommendations on how you too can pass the OSCP! I Tried Harder!! Hope this helps! : netsecstudents
+Offensive Security Certified Professional (OSCP) Review - Jim Wilbur's Blog
+Another OSCP Prep Review
+The Journey to Try Harder: TJNull’s Preparation Guide for PWK/OSCP | NetSec Focus
+Hakluke’s Ultimate OSCP Guide: Part 3 — Practical hacking tips and tricks
+Passing OSCP - scund00r
+Worth Looking At
+Penetration Testing Tools Cheat Sheet
+Nmap Cheat Sheet
+HighOn.Coffee • Security Research • Penetration Testing Blog
+Linux Commands Cheat Sheet
+Compilation of commands, tips and scripts
+Vulnerable VMs
+GoldenEye - New Vulnerable OSCP Style Machine - netsecstudents
+Wintermute OSCP Style Pivot Lab
+hackfest2016: Quaoar ~ VulnHub
+hackfest2016: Sedna ~ VulnHub
+SecOS: 1 ~ VulnHub
+SecTalks: BNE0x03 - Simple ~ VulnHub
+TopHatSec: Freshly ~ VulnHub
+TopHatSec: ZorZ ~ VulnHub
+abatchy's blog | OSCP-like Vulnhub VMs
+CTF Series : Vulnerable Machines
+OSCP like boxes
+1. Recon/Information Gathering/Enumeration
+NMAP
+Nmap Cheat Sheet
+Nmap Tutorial: from the Basics to Advanced Tips
+Nmap: the Network Mapper - Free Security Scanner
+NMAP CHEAT-SHEET
+21y4d/nmapAutomator: A script that you can run in the background!
+Subdomain/DNS Stuff
+FindSubDomains.com — subdomains search service
+Sublist3r: Fast subdomains enumeration tool
+Another Subdomain List
+Subdomain Wordlist for Knock
+SubBrute: A DNS meta-query spider that enumerates DNS records, and subdomains.
+Knock - Subdomain Scanning
+A penetration tester’s guide to sub-domain enumeration
+MassDNS: A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
+Domain Name Search | Domain Lookup
+Gobuster: Directory/file & DNS busting tool written in Go
+SANS - Foot Printing with WhoIS/DNS records
+DNSdumpster.com - dns recon and research, find and lookup dns records
+dnsrecon: DNS Enumeration Script
+Information-Gathering Resources
+Discover - Combination of Recon Tools
+Th3Inspector 🕵️ best tool for Information Gathering 🔎
+sullo/nikto: Nikto web server scanner
+Google Dorks for finding Emails, Admin users etc.
+Recon-ng — Bitbucket
+EnumerationVisualized Wiki
+SPARTA - scanning and enumeration phase tool
+Reconnoitre: A security tool for multithreaded information gathering and service enumeration whilst building directory structures to store results, along with writing out recommendations for further testing.
+Search - Public Database Directory - Public DB Host
+Penetration Testing Methodology - 0DAYsecurity.com
+Recon Video List
+Find email addresses in seconds • Hunter (Email Hunter)
+A Pentester's Guide - Part 1 (OSINT - Passive Recon and Discovery of Assets) | Sequoia
+We Leak Info - Data Breach Search Engine
+Tib3rius/AutoRecon: AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.
+2. Vulnerability Assessment
+Vulnerability-Assessment Resources
+A curated list of CVE PoCs.
+OpenVAS - OpenVAS - Open Vulnerability Assessment System
+Nessus Professional™ Vulnerability Scanner
+3. Exploitation
+Exploitation Tools and Resources
+Empire Cheat Sheet
+LocalFileIncludes Cheat Sheet
+Local File Inclusion (LFI) [Definitive Guide] - Aptive
+PowerSploit Cheat Sheet
+PowerView-2.0 tips and tricks
+PowerView-3.0 tips and tricks
+PHP htaccess injection cheat sheet
+Reverse Shell Cheat Sheet
+SQL Injection Cheat Sheet
+SQLite3 Injection Cheat Sheet
+A collection of web attack payloads.
+Useful payloads and bypass for Web App
+unicorn: PowerShell downgrade attack and inject shellcode straight into memory
+4. Post Exploitation
+Hack Back
+BusyBox
+Nmap: the Network Mapper - Free Security Scanner
+Responder: A LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
+Static-python: A fork of cpython that supports building a static interpreter and true standalone executables
+TCPDUMP/LIBPCAP public repository
+dsniff - For sniffing passwords from plaintext protocols like ftp, and for arpspoofing
+socat - networking swiss army knife
+Screen - GNU Project - Free Software Foundation
+SOCKS Proxy Server - Simple socks5 server in C++
+tgcd - For forwarding ports, like for the SOCKS server, through the firewall - TCP/IP Gender Changer Daemon
+Mimikatz: A little tool to play with Windows security
+Samba - opening windows to a wider world
+ProxyChains - TCP and DNS through proxy server. HTTP and SOCKS
+GitHub - Neohapsis/creddump7
+Post-Exploitation Resources (Windows)
+rebootuser/LinEnum: Scripted Local Linux Enumeration & Privilege Escalation Checks
+Post-Exploitation - NYU Poly 2011
+Transferring files from Kali to Windows (post exploitation)
+PowerSploit - A PowerShell Post-Exploitation Framework
+Empire: A PowerShell and Python post-exploitation agent.
+Persistence Stuff
+Lateral Movement Stuff
+enum4Linux: is a Linux alternative to enum.exe
+enum4linux Cheat Sheet
+PwnWiki.io - TTPs (tools, tactics, and procedures) for what to do after access has been gained
+Gaining Access Video List
+5. Privilege Escalation
+Linux Privesc
+Basic Linux Privilege Escalation
+Linux_Exploit_Suggester: Linux Exploit Suggester; based on operating system release number
+Linux-exploit-suggester-2: Next-Generation Linux Kernel Exploit Suggester
+Checksec.sh - Check Securities on a file
+Linux Privilege Escalation via Automated Script
+A guide to Linux Privilege Escalation - payatu
+Abusing SUDO (Linux Privilege Escalation)
+Editing /etc/passwd File for Privilege Escalation
+Linuxprivchecker Script
+Linux Privilege Escalation Using PATH Variable
+Linux Privilege Escalation using Misconfigured NFS
+Linux Privilege Escalation via Dynamically Linked Shared Object Library | Context Information Security EN
+Local Linux Enumeration & Privilege Escalation Cheatsheet – Rebootuser
+Privilege-Escalation Scripts
+Privilege Escalation on Linux with Live examples
+4 Ways to get Linux Privilege Escalation
+Linux Privilege Escalation by Exploiting Cronjobs
+Privilege Escalation - Linux · pentestbook
+Linux elevation of privileges
+Windows Privesc
+PowerSploit
+PowerUp Cheat Sheet
+Windows-Exploit-Suggester
+Sherlock: PowerShell script to quickly find missing software patches for local privilege escalation vulnerabilities.
+WindowsExploits
+Windows-kernel-exploits
+Metasploit Framework
+Well, That Escalated Quickly… – To Shell And Back: Adventures In Pentesting
+OSCP - Windows Priviledge Escalation
+Privilege-Escalation Scripts
+Checklists-Windows-Privilege-Escalation
+Windows Privilege Escalation Fundamentals
+Windows Privilege Escalation Guide
+Windows Privilege Escalation Methods for Pentesters – Pentest Blog
+A Virgil's Guide to Pentest: Escalation Time
+BeRoot For Windows – Privilege Escalation Project – Haxf4rall
+Elevating privileges by exploiting weak folder permissions | GreyHatHacker.NET
+Windows Priv Esc Stuff
+icerbreaker - Priv Escalation - Gets plaintext Active Directory credentials if you're on the internal network but outside the AD environment
+Windows elevation of privileges
+OneTab shared tabs
+FuzzySecurity | Windows Privilege Escalation Fundamentals
+Windows / Linux Local Privilege Escalation Workshop
+rebootuser/LinEnum: Scripted Local Linux Enumeration & Privilege Escalation Checks
+sqlmap-cheatsheet
+SQLMap Tamper Scripts (SQL Injection and WAF bypass)
+Privilege Escalation Video List
+Recipe for Root – Your Cookbook for Privilege Escalation
+Privilege Escalation Cheatsheet (Vulnhub)
+6. Reporting
+Reporting - The Penetration Testing Execution Standard
+sample-penetration-testing-report.pdf
+Curated list of public penetration test reports
+Cure53 – Fine penetration tests for fine websites
+Active Directory
+Introducing BloodHound
+My First Go with BloodHound | Strategic Cyber LLC
+BloodHoundAD - reveal the hidden and often unintended relationships within an Active Directory environment
+Active Directory Pentesting Archives - ScriptDotSh
+Active Directory Security – Active Directory & Enterprise Security, Methods to Secure Active Directory, Attack Methods & Effective Defenses, PowerShell, Tech Notes, & Geek Trivia…
+Top Five Ways I Got Domain Admin on Your Internal Network before Lunch (2018 Edition)
+harmj0y – security at the misfortune of others
+OSINT (Open Source Intelligence)
+A curated list of Threat Intelligence resources
+List of Threat Intelligence Stuff
+GitHub - x0rz/tweets_analyzer: Tweets metadata scraper & activity analyzer
+AsINT_Collection - start.me
+Spiderfoot, an Open Source Intelligence Automation Tool
+ꓘamerka — Build interactive map of cameras from Shodan
+Open Source Intelligence Gathering 101 – Appsecco
+crt.sh | Certificate Search
+Shodan
+Domain Dossier - Investigate domains and IP addresses, get owner and registrar information, see whois and DNS records
+Censys (Discover new threats)
+Open Source Intelligence Gathering 201 (Covering 12 additional techniques)
+Creepy: A geolocation OSINT tool
+XRay - mapping and OSINT gathering from public networks.
+Geotweet_GUI: Social engineering tool
+DataSploit: An OSINT Framework to perform various recon techniques
+SpiderFoot
+Google Hacking Database, GHDB, Google Dorks
+theHarvester: E-mails, subdomains and names Harvester
+OSINT Search Tool by IntelTechniques | Open Source Intelligence
+2019 OSINT Guide
+Google Search Operators: The Complete List (42 Advanced Operators)
+BelleBytes OSINT Guide - Storm CTF
+From Email Address to Phone Number: A New OSINT Approach - Martin Vigo - YouTube
+Credential Cracking and Brute Forcing
+Password Lists
+Recent 1.4 billion password breach compilation as wordlist : netsec
+philipperemy/tensorflow-1.4-billion-password-analysis: Deep Learning model to analyze a large corpus of clear text passwords.
+JohnTheRipper
+hashcat - advanced password recovery
+THC Hydra - brute force crack a remote authentication service
+Credential Access Stuff
+Patator: is a multi-purpose brute-forcer
+Ophcrack - Windows Password Cracker
+Nozzlr: Multithreaded Brute Forcer
+Decrypt Google Chrome / Chromium passwords and credit cards on macOS / OS X.
+Chrome Password Decryptor : Free Tool to Recover Lost or Forgotten Website Password from Google Chrome Browser
+How to Grab All the Passwords « Null Byte :: WonderHowTo
+Web Security
+Books
+The Browser Hacker's Handbook
+The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws
+Burp
+Burp Intro
+0x2 Exploit Tutorial: Web Hacking with Burp Suite
+XSS
+webGun - XSS Payload Build Tool
+Unleashing an Ultimate XSS Polyglot · 0xSobky/HackVault Wiki
+XSS Polyglot Challenge
+Browser's XSS Filter Bypass Cheat Sheet · masatokinugawa/filterbypass Wiki
+0×1 Exploit Tutorial: XSS
+XSS Payloads
+unescape() room
+Useful payloads and bypass for Web App
+$10k host header - Test
+Web Security · isislab/Project-Ideas Wiki
+RPISEC INTROSEC
+Web Security - Webgoat
+zseano | UK Security Researcher
+High Performance Web Brute-Forcing 🕸🐏 – hiburn8
+The Bug Hunter’s Methodology 2.0 – Jason Haddix
+The Bug Hunters Methodology
+Web Hacking Tools List
+A list of web application security resources
+A curated list of Web Security materials and resources.
+A Methodical Approach to Browser Exploitation | Ret2 Systems Blog
+ZAP - Zed Attack Proxy Project
+Samurai 3.0 Branch - Web Pen Testing VM
+Samurai - Course -Web Pen-testing VM
+OWASP Juice Shop Project - Web Pen Testing Challenge
+Vulnerable Web Applications Directory
+Red-Team (C2 Stuff and Other Good Things)
+C2/Infrastructure
+Coalfire-Research/Red-Baron: Automate creating resilient, disposable, secure and agile infrastructure for Red Teams.
+Red-Team-Infrastructure-Wiki/README.md at master · bluscreenofjeff/Red-Team-Infrastructure-Wiki
+C2 Stuff
+Red Team Laptop & Infrastructure (pt 1: Architecture) – Hacking & Coffee
+Red Team Insights on HTTPS Domain Fronting Google Hosts Using Cobalt Strike - CyberArk
+List of Red Teaming Resources
+Initial Access (Phishing/Social Engineering/etc)
+Defense Evasion Stuff
+Lock Picking
+A curated list of guides, tools, and other resources related to the security and compromise of locks, safes, and keys.
+Lock Picking Books
+Super Bump Key Set
+Social Engineering
+A curated list of social engineering resources
+Geotweet_GUI: Social engineering tool
+Social Engineering Books
+CTF Focused Things
+Getting Started
+How to Get Started in CTF | ENDGAME
+Introduction | CTF Field Guide
+[WeChall] Participating Challenge Sites
+Twitch Streams and Videos To Learn From
+Play CTF! A Great Way to Learn Hacking - Fsec 2017 - YouTube
+KevOrr/ctf-training
+livectf - Twitch
+GynvaelEN - YouTube
+Murmus CTF - YouTube
+LiveOverflow - Awesome to learn Computer Security
+Writeups
+Myne-us: From 0x90 to 0x4c454554, a journey into exploitation.
+writeups/icectf-2016 at master · WCSC/writeups · GitHub
+CTFtime.org / IceCTF 2016 tasks and writeups
+Hackover CTF 2015 – easy-shell - Writeup - f00ls bl0g
+Google CTF 2017 Quals Write-up Winners - Google Drive
+Notes - gynvael.coldwind//vx
+Blizzard CTF 2017 – The LichKing Reverse Engineering challenge walkthrough | Shortjump!
+Zero Day Initiative — Testing for Truthiness: Exploiting Improper Checks
+How To Hack - Episode 2: Use-After-Free Triple Bounce - YouTube
+PlaidCTF Write-up: Shop
+Building up from the Ethereum Bytecode | Ret2 Systems Blog
+DEF CON® 26 Hacking Conference News
+RPISEC Blog
+CTFs
+CSAW CTF 2015 - Alexander Taylor – OSIRIS Lab at NYU SOE
+Practical case: Secura Grand Slam CTF “Easy Reverse” – Max Kersten
+Capture the Flag Challenges
+GitHub - antihorsey/ctf-writeups: Writeups of problems from past CTFs
+CTFs
+write-ups-2015/seccon-quals-ctf-2015/stegano/steganography-2 at master · ctfs/write-ups-2015
+How to Read JPG Height and Width from Binary/Hex data?
+ctf-writeups/babypwn.md at master · VulnHub/ctf-writeups · GitHub
+ctf-writeups/rop2libc.md at master · VulnHub/ctf-writeups · GitHub
+ctf-challenges/pwn/stackoverflow/ret2libc at master · ctf-wiki/ctf-challenges · GitHub
+33C3 CTF 2016 -- ESPR « Hacking Tube
+write-ups-2016/hackcon-ctf-2016/pwn/easiest-pwn-not-250 at master · ctfs/write-ups-2016
+google-ctf - solutions
+csaw-ctf-2014 - S3 writeup
+ctfs - write-ups-2014
+Metasploit Community CTF 2018: 2 of Diamonds Write-Up
+Metasploit Community CTF 2018
+50M_CTF_Writeup/README.md at master · manoelt/50M_CTF_Writeup
+CTFtime.org / Google Capture The Flag 2017 (Quals) tasks and writeups
+Flare-on 6 2019 Writeups
+Google CTF 2019 Write-Up - HackMD
+Tools to Use
+zardus/ctf-tools- Some useful tools for various challenges
+INTROSEC - Useful tools for various challenges
+Pip installation
+Online Decoder For Esolangs
+Crypto
+CyberChef (Crypto)
+dCode - Solvers, Crypto, Maths, Decoding, Online Tools
+Crypto Tools
+Base64 Decode and Encode - Online
+Cipher Tools
+quipquip - Awesome Crypto Solver
+The Enigma machine: Encrypt and decrypt online — Cryptii
+zweisamkeit/RSHack: RSHack - Tool for RSA CTF's challenges
+Practice Crypto Challenges - Cryptopals
+CyberChef
+rot13.com
+Awesome Frequency Analysis Tool
+Some inactive CTF challenge : codes
+Skipjack Decoder
+MD5 Cracker Page - Over 312.072 billion cracked MD5 hashes - HashKiller.co.uk
+SHA1 Cracker Page - Over 312.072 billion cracked SHA1 hashes - HashKiller.co.uk
+Exploitation/PWN
+ROPgadget
+shell-storm | ROPgadget - Gadgets finder and auto-roper
+shell-storm | Shellcodes Database
+sashs/Ropper: Display information about files in different file formats and find gadgets to build rop chains for different architectures (x86/x86_64, ARM/ARM64, MIPS, PowerPC). For disassembly ropper uses the awesome Capstone Framework.
+qira - timeless debugger
+Dllinjector: dll injection tool that implements various methods
+Libformatstr: Simplify format string exploitation.
+pwntools — pwntools 3.3.4 documentation
+GitHub - Gallopsled/pwntools: CTF framework and exploit development library
+hugsy/gef: GEF - GDB Enhanced Features for exploit devs & reversers
+Playing with rasm2 (for shellcoding)
+Rasm2 · Radare2 Book (for shellcoding)
+zardus/preeny: Some helpful preload libraries for pwning stuff.
+Exploitation Practice: An archive of low-level CTF challenges developed over the years
+Reversing/Binary Analysis
+Ghidra
+Boomerang Decompiler - Decompile x86 binaries to C
+Angr: binary analysis platform!
+Jadx: Dex to Java decompiler (Android)
+Java decompiler online
+Krakatau: Java decompiler, assembler, and disassembler
+Pin - A Dynamic Binary Instrumentation Tool | Intel® Software
+Uncompyle: Python decompiler
+Z3: The Z3 Theorem Prover
+Getting Started with Z3
+binary.ninja : a reverse engineering platform
+IDA Sig Database (FLIRT)
+GCC and MSVC C++ Demangler
+gcore(1) - Linux manual page
+geohot/qira: QEMU Interactive Runtime Analyser (timeless debugger)
+Forensics
+Dnscat - SkullSecurity
+Audacity - Audio Files
+ExifTool - Read Write and Edit Meta Info
+Foremost - File Recovery
+fsck - Fix Broken File Systems
+NetworkMiner - Network Forensics Analysis Tool ⛏
+Dump file analyzer - Memory Extraction
+Binwalk: Firmware Analysis Tool (forensic) - Extracts Hidden Files
+Autopsy Tool
+Memory Analysis with Volatility Analyzing a RAM Image with Volatility (15 Points)
+Volatility & Memory-Forensics-Cheat-Sheet-v1_2.pdf
+volatility-memory-forensics-cheat-sheet.pdf
+Steganography
+ImageMagick
+Exif - shows EXIF information in JPEG files
+exiftool: Read/write meta info in files
+Exiv2 - Image metadata library and tools
+outguess - universal tool
+SmartDeblur: Restoration of defocused and blurred photos/images
+stegbreak - brute force dictionary on JPEG
+StegCracker: Steganography brute-force utility to uncover hidden data inside files
+stegextract: Detect hidden files and text in images
+Steghide
+Digital Invisible Ink Toolkit
+Steganography - A list of useful tools and resources | 0xRick Owned Root !
+CTF Tidbits: Part 1 — Steganography - FourOctets - Medium
+T9 Predictive Text Input Emulator
+zsteg: detect stegano-hidden data in PNG & BMP
+Web Challenges
+Metasploit | Penetration Testing Software, Pen Testing Security | Metasploit
+Burp Suite for Web Challenges (cookies)
+example_hashes [hashcat wiki]
+Postman
+Useful payloads and bypass for Web App
+SSH Brute Force | SSH Password Testing With Hydra on Kali Linux - LinuxConfig.org
+Find VM IP | netdiscover: netdiscover
+FlareOn 2019
+FLARE-On
+www.flare-on.com
+Challenge 1
+Building dnSpy · 0xd4d/dnSpy Wiki
+Challenge 2
+UTF-8 - Wikipedia
+Corrigendum #1: UTF-8 Shortest Form
+UTF-8 and Unicode FAQ
+Unicode/UTF-8-character table
+Hexadecimal to Binary Converter
+From Hex, Decode text - CyberChef
+Challenge 3
+APK decompiler - decompile Android .apk ✓ ONLINE ✓
+From Hex, Decode text - CyberChef
+Challenge 4
+Wireshark 2.6 Available to Install in Ubuntu 18.04, 16.04 via PPA | UbuntuHandbook
+Download and Installation — Scapy 2.4.3.dev7 documentation
+Reading Pcap files with Scapy | IncognitJoe
+network manager - How to Add dnsmasq and keep systemd-resolved (18.04) - Ask Ubuntu
+How to Configure dnsmasq on Ubuntu Server 18.04 LTS – Linux Hint
+How to Install and Configure Dnsmasq on Ubuntu 18.04 LTS - Computing for Geeks
+FreeKB - Understanding the /etc/hosts.allow and /etc/hosts.deny files in Linux
+CTFtime.org / All about CTF (Capture The Flag)
+picoCTF - CMU Cybersecurity Competition
+CTF Beginner notes
+defcon-challenges-vm
+Hacker101 CTF
+Ook! - Esolang
+ctf4u
+DFIR/Blue Team/SOC/Network Security
+Books
+The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory
+Tools
+The Sleuth Kit (TSK) & Autopsy: Open Source Digital Forensics Tools
+TheresAFewConors/Sooty: The SOC Analysts all-in-one CLI tool to automate and speed up workflow.
+SOC Stuff
+MITRE ATT&CK framework - Google Search
+Netflow - Google Search
+The Attackers Life cycle - Google Search
+SQL Injection - Google Search
+OWASP Top 10 - Google Search
+The Cyber kill chain - Google Search
+TCP/IP - Google Search
+Diamond model of intrusion analysis - Google Search
+Free Splunk For Military Vets
+Network Analysis/Monitoring/Hacking
+Netcat
+Hacking with Netcat part 1: The Basics - Hacking Tutorials
+Wireshark
+Wireshark
+Wireshark_Display_Filters
+Termshark • A terminal UI for tshark, inspired by Wireshark
+PCAP Practice - Malware-Traffic-Analysis.net
+Public PCAP files for download
+Wireless
+Aircrack-ng - Wireless Pen Testing
+Kismet Wireless Detector
+WiFiJammer - Continuously jam all wifi clients/routers
+20 Popular Wireless Hacking Tools [updated for 2017]
+How To Hack WiFi: The Ultimate Guide (2019) - CyberX
+Man In The Middle (MITM)
+Bettercap 2.0 - MITM Tool
+OSWP
+My experience with OSWP/WiFu v3.2 - ScriptDotSh
+Network Security · isislab/Project-Ideas Wiki
+Scapy: packet manipulation program & library
+RPISEC INTROSEC
+Online IP CIDR / VLSM Supernet Calculator
+TCPDUMP/LIBPCAP public repository
+GitHub - defuse/sockstress: Sockstress (TCP DoS) implementation.
+OSI model - Wikipedia
+Moloch - PCAP tool
+Networking - YouTube
+A curated list of awesome forensic analysis tools and resources
+www.amanhardikar.com/mindmaps/ForensicChallenges.html
+Software Assurance Reference Dataset
+The FREE Secure Coding Training Course only at Cybrary
+Cyber Defense Presentation - SANS Institute
+13Cubed - YouTube
+Digital Forensics and Incident Response Cheatsheet
+Home - DFIR - The Definitive Compendium Project
+Applied Network Defense | good cheap blue team courses
+SANS Digital Forensics and Incident Response | DFIR Courses | SANS
+meirwah/awesome-incident-response: A curated list of tools for incident response
+ICS/SCADA
+Courses
+Cyber-Physical Systems Security
+Cyber-Physical Systems Design & Analysis
+Resource list – Robert M. Lee
+Networking
+Cheat Sheets - PacketLife.net
+How Does the Internet Work?
+Intro Computer Networks Resources
+Computer Networking (CN) · OMSCS Notes
+The TCP/IP Guide - The TCP/IP Guide
+VM's/Virtualization, Home Lab, Cloud Stuff
+Console Virtualization
+How to Build Your Own Mini SNES
+How to Build a Raspberry Pi Retro Game Console
+RPCS3 - PlayStation 3 Emulator
+Home Lab Stuff (VM's, Hardware, RPi)
+Rasberry Pi Things
+Rasberry Pi VPN
+OpenVPN - Debian Wiki
+GitHub - adrianmihalko/raspberrypiwireguard: Install and configure WireGuard on Raspberry Pi (and others)
+PiVPN: Simplest setup of OpenVPN
+trailofbits/algo: Set up a personal IPSEC VPN in the cloud
+bitcamp
+ARM/RaspberryPi - Ubuntu Wiki
+Downloads :: Andrew Griffiths' Exploit Education
+OpenSSH Server
+virtualbox - Is it possible to “SSH” into my virtual machine remotely? - Ask Ubuntu
+image - How can I convert a .img.xz file to .img to transfer it to my SDCard? - Raspberry Pi Stack Exchange
+Installing operating system images - Raspberry Pi Documentation
+ethernet - Multiple Simultaneous SSH Connections - Raspberry Pi Stack Exchange
+SSH (Secure Shell) - Raspberry Pi Documentation
+linux - Find out how much SSH-connections currently exist - Stack Overflow
+Protect SSH Logins with SSH & MOTD Banner Messages<
+Ubuntu Linux Change Hostname (computer name) - nixCraft
+How to install Ubuntu on the Raspberry Pi | TechRadar
+command to find the SD card
+How To Install And Configure QEMU In Ubuntu | Unixmen
+Run another OS on your RPi3 as a virtualized QEMU guest under KVM (64-bit) - Raspberry Pi Forums
+QEMU/Images - Wikibooks, open books for an open world
+What to do with a Raspberry Pi? : netsecstudents
+dokuwiki [DokuWiki]
+Pi-hole®: A black hole for Internet advertisements – curl -sSL https://install.pi-hole.net | bash
+The Only Raspberry Pi 3 Kodi Tutorial You Will Ever Need
+LibreELEC – Just enough OS for KODI
+RPi-youtube, smooth youtube videos on Chromium - Raspberry Pi Forums
+How to Enable HDMI-CEC on Your TV, and Why You Should
+HookTube
+Puffin Internet Terminal - Turning a tiny Raspberry Pi into a high-end PC
+cloudflared - Google Search
+pfsense - Google Search
+Security-Onion-Solutions/security-onion: Linux distro for intrusion detection, enterprise security monitoring, and log management
+AdguardTeam/AdGuardHome: Network-wide ads & trackers blocking DNS server
+AdGuard — World's most advanced adblocker!
+Hass.io - Home Assistant
+Hardware
+Intel® Xeon® Processor E5-2670 (20M Cache, 2.60 GHz, 8.00 GT/s Intel® QPI) Product Specifications
+ASRock EP2C602-4L/D16 SSI EEB Server Motherboard Dual LGA 2011 Intel C602 DDR3 1866 / 1600 / 1333 / 1066 R / LR ECC and UDIMM - Newegg.com
+SR0KX E5-2670 Xeon Intel 8 Core 2.60Ghz 20M 115W CPU /w Thermal - 670523-001 | eBay
+Amazon.com: Intel E5-2670 2.60Ghz 20M Cache 8-Core 115W Processor SR0KX: Computers & Accessories
+Amazon.com: ASRock Motherboard ATX DDR3 1066 Intel LGA 2011 EP2C602-4L/D16: Computers & Accessories
+Samsung 128GB (16 x 8GB) 2Rx4 PC3-10600R M393B1K70CHD-CH9 PowerEdge R710 | eBay
+Cyber Range Build | Liberty
+Amazon.com: Rosewill Gaming 80 Plus Bronze 850W Full Modular Power Supply/PSU, HIVE Series 850 Watt 80 Plus Bronze Certified PSU with Silent 135mm Fan and Auto Fan Speed Control, 3 Year Warranty: Computers & Accessories
+Amazon.com: Cooler Master Hyper RR-T4-18PK-R1 CPU Cooler with 4 Direct Contact Heatpipes, INTEL/AMD with AM4 Support: Computers & Accessories
+Amazon.com: Cooler Master GeminII S524 Version 2 CPU Air Cooler with 5 Direct Contact Heat Pipes (RR-G5V2-20PK-R1): Computers & Accessories
+Amazon.com: Cooler Master Hyper 212 Evo (RR-212E-20PK-R2) CPU Cooler with PWM Fan, Four Direct Contact Heat Pipes: Electronics
+Amazon.com: Dell Precision T5500 Workstation Desktop PC Intel Xeon 12 Core 3.33GHz 72GB RAM 2TB Hard Drive NVIDIA Quadro K2000 Graphics Windows 10 Pro 64-bit: Computers & Accessories
+128GB (16x 8GB) 10600R ECC REG RAM MEMORY FOR DELL HP SERVERS | eBay
+hardware - homelab
+buyingguide - homelab
+hardware/muffinsguide - homelab
+VM's/Virtualization Stuff
+Windows VMs
+Windows Server Free Trial | Microsoft
+Free Virtual Machines from IE8 to MS Edge - Microsoft Edge Development
+Windows 10 App Dev VM
+Hyper-V
+Hyper-V Provider - Vagrant
+How to make a boot option to turn on/off hyper-v
+How to create a Linux virtual machine on Windows 10 using Hyper-V
+Installation Guide | Qubes OS
+Parrot Project - The best choice for security experts, developers and crypto-addicted people.
+Vagrant by HashiCorp
+ESXi | Bare Metal Hypervisor | VMware
+Using the VMware View Application - Like VMware Player on an Android Tablet!
+Building Virtual Machine… by Tony Robinson [PDF/iPad/Kindle]
+VMware Lab setup - A virtualized lab for testing HA and DRS - Simple Talk
+Open Source Server Virtualization Training for Proxmox VE
+Proxmox vs. ESXi : homelab
+r/homelab
+How to Set up an SSH Server on a Home Computer - DEV Community 👩‍💻👨‍💻
+Know Your Network, Lesson 4: Access Your Home Computers from Anywhere
+How to Control Your Linux PC with an Android Device
+introduction - homelab
+Building a VMware home lab
+Setting Up A Penetration Testing Lab
+Infosec_Reference/Building A Pentest Lab
+Building a Home Lab for Offensive Security & Security Research · System Overlord
+Building-Your-Own-Kickass-Home-Lab-Jeff-McJunkin.pdf
+My semi-humble homelab! : homelab
+Stumbled into /r/homelab? Start Here! : homelab
+software - homelab
+List of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+resources - homelab
+My actual "mini-lab" : homelab
+UniFi Home Setup - Page 4 - Ubiquiti Networks Community
+Saw this in /r/oddlysatisfying, thought some people here might find it useful : homelab
+E-Ink based status display : homelab
+Intel® Advanced Vector Extensions 512 (Intel® AVX-512) Overview
+Amazon.com: Intel Xeon Phi 7120P Coprocessor: Computers & Accessories
+How can I work on vulnhub VM's in virtualbox in a school setting? : netsecstudents
+128GB (16x 8GB) 10600R ECC REG RAM MEMORY FOR DELL HP SERVERS | eBay
+Cloud Stuff
+AWS (Amazon Web Services)
+flAWS
+AWS in Plain English
+GitHub - toniblyx/my-arsenal-of-aws-security-tools: List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
+AWS Management Console
+https://interactive.linuxacademy.com/diagrams/TheOrionPapers.html
+DigitalOcean
+Useful Tools, Tips, & Tricks for OS's
+Linux
+Linux Fixes and Tweaks
+Nvidia Graphics, Reboot Freeze, Purple/Black Screen Fix
+gnome - Freeze after login Ubuntu 18.04 - Ask Ubuntu
+Ubuntu 18.04 stuck at shutdown - Ask Ubuntu
+Ubuntu 18.04 Live boot leads to blank screen - Ask Ubuntu
+filesystem - How to fix "sudo: unable to open ... Read-only file system"? - Ask Ubuntu
+dual boot - Cannot update to 18.04 on DualBoot - "EFI System Partition (ESP) not usable" - Ask Ubuntu
+drivers - Is nomodeset still required? - Ask Ubuntu
+Ubuntu ugrade 17.10 to 18.04 nvidia black screen - Ask Ubuntu
+Bug #1705369 “Ubuntu 17.10/18.04 boots to black screen when usin...” : Bugs : nvidia-graphics-drivers-384 package : Ubuntu
+Bug #1764005 “Black-screen on boot with nvidia 390 for Budgie, M...” : Bugs : nvidia-prime package : Ubuntu
+Bug #1763774 “nvidia-driver-390 GDM black screen / hang after lo...” : Bugs : nvidia-graphics-drivers-390 package : Ubuntu
+Black screen after boot on 18.04 with nvidia - Support & Help Requests - Ubuntu MATE Community
+2 Ways to Install Nvidia Driver on Ubuntu 18.04 (GUI & Command Line)
+Trying to install nvidia driver for ubuntu Desktop 18.04 LTS - Ask Ubuntu
+boot - Ubuntu 18.04 stuck at purple screen after login - Ask Ubuntu
+No GUI after Kubuntu 18.04 LTS upgrade from 17.10 - Ask Ubuntu
+NVIDIA Driver 384.59 Not Installing - Can't load nvidia-drm, can't open display - NVIDIA Developer Forums
+Kali Things
+kali linux - VMware tools installed but not working - Unix & Linux Stack Exchange
+How to Reset Lost Password of Kali Linux? - Technig
+kali linux - proxy timeout, error - Unix & Linux Stack Exchange
+Airplane mode fix
+Airplane mode stuck on??
+[ubuntu] Ubuntu 18.04 LTS remains in Airplane mode and WIFI not works
+Ubuntu 18.04 LTS remains in Airplane mode
+[SOLVED] Laptop stuck in airplane mode after suspend
+networking - Cannot disable Airplane Mode - Ask Ubuntu
+Newest 'airplane-mode' Questions - Ask Ubuntu
+How can I uninstall flight mode in Ubuntu 18.04 and turn on Wi-Fi? - Quora
+Airplane mode won't turn off [SOLVED] - Linux Mint Forums
+centos - Permanently disable airplane mode gnome 3.2 - Unix & Linux Stack Exchange
+10.04 - Prevent wireless from turning off when lid goes down - Ask Ubuntu
+Keep Ubuntu 17.10 / 18.04 Desktop Running when Laptop Lid is Closed | Website for Students
+Ubuntu Wifi Hardware Disabled after Suspend : MSILaptops
+Wifi Hard Blocked After Suspend in Ubuntu on GS65 : Ubuntu
+wireless - Wifi Hard Blocked After Suspend in Ubuntu on GS65 - Ask Ubuntu
+Airplane mode on resume and no wireless · Issue #181 · linrunner/TLP
+linux - Lenovo E320 is in airplane mode, says toggle hardware switch, but has no hardware switch and WiFi is still hard locked - Super User
+Kernel/MainlineBuilds - Ubuntu Wiki
+MSI GS65 - ArchWiki
+wireless - How to know I have to blacklist acer_wmi? - Ask Ubuntu
+linux - How to turn off Wireless power management permanently - Unix & Linux Stack Exchange
+How to Update Ubuntu Kernel - wikiHow
+wireless - Wifi Hard Blocked After Suspend in Ubuntu on GS65 - Ask Ubuntu
+SOLUTION: 18.04 MSI GS65 wifi hardware switch disabled after suspend - Ask Ubuntu
+Tweaks
+brndnmtthws/conky: Light-weight system monitor for X.
+Better audio for ubuntu
+11 Things To Do After Installing Ubuntu 18.04 LTS 'Bionic Beaver' - OMG! Ubuntu!
+How to Install Desktop Themes on Ubuntu 18.04 LTS
+How To Install Numix Theme And Icons In Ubuntu 18.04 | Omgfoss.com
+5 Of The Best Linux Desktop Themes Compared
+GitHub - arcticicestudio/nord: An arctic, north-bluish color palette.
+Where is the "Default Wallpaper" wallpaper stored - Ask Ubuntu
+gnome - Why aren't my pictures appearing in the "pictures" section of the change wallpapers window? - Ask Ubuntu
+Sonos on Linux
+ability to stream output of a linux desktop to Sonos · Issue #60 · janbar/noson-app · GitHub
+noson-app: Control your SONOS devices on Linux platforms
+ability to stream output of a linux desktop to Sonos · Issue #60 · janbar/noson-app · GitHub
+Delay YT Video
+Package Missing 1
+Package missing 2
+Package Missing 3
+Package Missing 4
+Package Missing 5
+mkchromecast: Cast macOS and Linux Audio/Video to your Google Cast and Sonos Devices
+Use your Chromecast from Linux and MacOS with mkchromecast — The Ultimate Linux Newbie Guide
+Mkchromecast
+How to stream from linux to Sonos | Sonos Community
+SonosTube
+filesystem - How to make read-only file system writable?
+tor - how to verify that proxychains is working - Super User
+Inconsistent and erratic mouse wheel in Linux while moving the mouse pointer - Super User
+How can I adjust the mouse scroll speed? - Ask Ubuntu
+Generating a new SSH key and adding it to the ssh-agent - User Documentation
+[SOLVED] Error: Unable to correct problems, you have held broken packages
+Install VMware Workstation or VMware Player from a .bundle file | Linuxlookup
+Could not get vmci driver version: The handle i... |VMware Communities
+How to reinstall network manager without internet access? - Ask Ubuntu
+TLDR pages
+live usb - How to install the MPEG-4 AAC decoder and the H.264 decoder? - Ask Ubuntu
+Unable to forward search Bash history similarly as with CTRL-r - Stack Overflow
+How to cycle through reverse-i-search in BASH? - Unix & Linux Stack Exchange
+My Favorite Command-Line Shortcuts | Henrik Warne's blog
+How to Install Deepin Desktop Environment on Ubuntu 18.04 - OMG! Ubuntu!
+[ubuntu] How To: Setup DOD Common Access Card (CAC) for service portals
+Gnome Authentication Error When Logging in After Lock - Ask Fedora: Community Knowledge Base and Support Forum
+Is there any way to roll back the most recent upgrade? - Ask Ubuntu
+Bluetooth Headset volume too low (only in arch) / Multimedia and Games / Arch Linux Forums
+Helpful Tools for Linux
+Tmux
+A Gentle Introduction to tmux – Hacker Noon
+tmux/tmux: tmux source code
+Tmux not sourcing my .tmux.conf - Unix & Linux Stack Exchange
+Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf
+tmux-plugins/tmux-logging: Easy logging and screen capturing for Tmux.
+tmux shortcuts & cheatsheet
+tmux cheatsheet
+Other Linux Stuff
+Grep Stuff
+Process Killing
+Creating SSH keys - Atlassian Documentation
+[SOLVED] merge pdf files with each file as a index entry in the big pdf
+GouveaHeitor/nipe: Nipe is a script to make Tor Network your default gateway.
+ebooks - What software can I use to view epub documents? - Ask Ubuntu
+20 Linux Command Tips and Tricks That Will Save You A Lot of Time - Tips and Tricks
+how to change hostname ubuntu - Google Search
+How to compress and extract files using tar command in Linux – Hostway Help Center
+Home | Linux Journey
+Rosetta Stone for Unix
+Courses - LPI Linux Essentials
+Table of contents - ArchWiki
+rsu-client/rsu-client: A git repository for the RuneScape Linux/Unix Client Project
+Linux Command Reference.pdf
+Windows
+Windows Fixes and Tweaks
+How to make a bootable USB on Windows
+Rainmeter, desktop customization tool
+Touch Terminal. Months of work finally realized. Downloads and instructions in the comments : Rainmeter
+Win10 Widgets - Widgets for Windows 10
+Removing Debian Installation Prompt - Unix & Linux Stack Exchange
+How to Install and Use the Linux Bash Shell on Windows 10
+Download Windows Commands Reference from Official Microsoft Download Center
+The fastest way to search your Chrome history or bookmarks - CNET
+how to close a tab in a browser and other things
+Windows Subsystem for Linux 2 (WSL 2) Released to Insiders
+The Windows Subsystem for Linux Guide! — Windows Subsystem for Linux Guide documentation
+Electrical Engineering and Math
+EE Stuff
+Semiconductor Physics for Solid State Electronics
+Math Stuff
+Statistics
+These Are the Best Books for Learning Modern Statistics—and They’re All Free
+Suggested Course: Intro to Statistics | Udacity
+/r/netsecstudents
+/r/netsec
+/r/Reverse Engineering
+VeteranSec – A Veteran Cyber Security Community
+LiveOverflow - LiveOverflow
+
