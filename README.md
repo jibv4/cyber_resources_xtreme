@@ -4,7 +4,7 @@ https://niccs.cisa.gov/education-training/catalog/springboard/cyber-security-car
 
 https://www.spenceralessi.com/Defensive-Cybersecurity-Mega-List-Free-Training-Resources/# 
 
-https://niccs.cisa.gov/cybersecurity-career-resources 
+https://niccs.cisa.gov/cybersecurity-career-resources
 
 https://github.com/cjspencer/UCB-Cybersecurity 
 
