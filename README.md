@@ -2,8 +2,6 @@ GitHub - paulveillard/cybersecurity-infosec: An ongoing collection infosec cours
 
 https://niccs.cisa.gov/education-training/catalog/springboard/cyber-security-career-track 
 
-Defensive Cybersecurity Mega List - FREE Training Resources  
-
 https://www.spenceralessi.com/Defensive-Cybersecurity-Mega-List-Free-Training-Resources/# 
 
 https://niccs.cisa.gov/cybersecurity-career-resources 
@@ -11,6 +9,15 @@ https://niccs.cisa.gov/cybersecurity-career-resources 
 https://github.com/cjspencer/UCB-Cybersecurity 
 
 https://github.com/Jbyford89/ASU-CyberSecurity-Bootcamp 
+
+https://cybersalih.notion.site/CyberSalih-Certifcation-Guide-5f2c2bde7728435aa6c96d86b30077aa#3dbcbdedaf3f4a598970960e4e0d4b52 
+
+https://github.com/brcyrr/PracticalCyberSecurityResources#security-architecture- 
+
+https://medium.com/the-sleuth-sheet/cybersecurity-blue-team-learning-resources-17be4c96de5 
+
+https://biggingerhoneypot.notion.site/biggingerhoneypot/68fb84422c8b47118569f7585054a7d7?v=493a04e2c4024a899ba23dea337d7009&p=c88723926e3a444b9c59f82b92ee8ff7&pm=s 
+
 
 GitHub - brootware/awesome-cyber-security-university: 🎓 Because Education should be free. Contributions welcome! 🕵️ 
 
@@ -46,13 +53,6 @@ GitHub - CSIRT-MU/edu-resources: An awesome list of cybersecurity educational re
 
 GitHub - DavidJKTofan/CyberSec-resources: A repo of useful CyberSec tools/urls, OSINT, Linux security resources, and more. 
 
-https://cybersalih.notion.site/CyberSalih-Certifcation-Guide-5f2c2bde7728435aa6c96d86b30077aa#3dbcbdedaf3f4a598970960e4e0d4b52 
-
-https://github.com/brcyrr/PracticalCyberSecurityResources#security-architecture- 
-
-https://medium.com/the-sleuth-sheet/cybersecurity-blue-team-learning-resources-17be4c96de5 
-
-https://biggingerhoneypot.notion.site/biggingerhoneypot/68fb84422c8b47118569f7585054a7d7?v=493a04e2c4024a899ba23dea337d7009&p=c88723926e3a444b9c59f82b92ee8ff7&pm=s 
 
  
 
