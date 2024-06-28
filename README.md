@@ -1,5 +1,27 @@
 GitHub - paulveillard/cybersecurity-infosec: An ongoing collection infosec courses, learning tutorials, libaries, and training resources. 
 
+https://devsecopsguides.com/  
+
+https://github.com/Psmths/windows-forensic-artifacts  
+
+https://app.tidalcyber.com/  
+
+https://training.dfirdiva.com/  
+
+https://github.com/mikeroyal?tab=repositories 
+
+https://deathhacks.github.io/DeathHack/ 
+
+https://github.com/orgs/center-for-threat-informed-defense/repositories 
+
+https://book.blueteamguides.com/scenario/purple-teaming 
+
+https://www.cisa.gov/resources-tools 
+
+https://www.jaiminton.com/cheatsheet/DFIR/ 
+
+ 
+
 https://niccs.cisa.gov/education-training/catalog/springboard/cyber-security-career-track 
 
 https://www.spenceralessi.com/Defensive-Cybersecurity-Mega-List-Free-Training-Resources/# 
